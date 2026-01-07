@@ -3,8 +3,6 @@ artifacts/
 merged/
 models/
 step_9_big5_inventory.py
-*.jsonl
-*.jsonl
 *.csv
 wandb/
 models_*/
