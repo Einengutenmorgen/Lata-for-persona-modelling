@@ -1,0 +1,13 @@
+venv/
+artifacts/
+merged/
+models/
+step_9_big5_inventory.py
+*.jsonl
+*.jsonl
+*.csv
+wandb/
+models_*/
+*.csv
+__pycache__/
+*.ipynb_checkpoints
