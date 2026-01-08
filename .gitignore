@@ -9,3 +9,4 @@ models_*/
 *.csv
 __pycache__/
 *.ipynb_checkpoints
+artifacts_llama31/
