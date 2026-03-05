@@ -1,0 +1,33 @@
+\begin{table}[htbp]
+\begin{threeparttable}
+\caption{Invalid Response Rate for LatA Models by Trait, Level, and Steering Strength}
+\label{tab:lata_lambda_validity}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrrrrr}
+\toprule
+Trait & Level & $\lambda=0$ & $\lambda=0.5$ & $\lambda=1.0$ & $\lambda=1.5$ & $\lambda=2.0$ & $\lambda=2.5$ \\
+\midrule
+  Agreeableness & High & — & 0.0\% & 0.0\% & 7.6\% & 27.8\% & 46.4\% \\
+   & Low & — & 0.0\% & 0.0\% & 7.3\% & 16.2\% & 23.3\% \\
+\addlinespace
+  Conscientiousness & High & 0.0\% & 0.0\% & 0.1\% & 10.5\% & 22.7\% & — \\
+   & Low & 0.0\% & 0.0\% & 0.0\% & 0.0\% & 8.5\% & — \\
+\addlinespace
+  Extraversion & High & — & 0.0\% & 0.0\% & 10.9\% & 39.8\% & 60.0\% \\
+   & Low & — & 0.0\% & 0.0\% & 13.8\% & 38.7\% & 51.3\% \\
+\addlinespace
+  Neuroticism & High & — & 0.0\% & 0.0\% & 2.4\% & 18.2\% & 35.8\% \\
+   & Low & — & 0.0\% & 0.0\% & 5.8\% & 20.2\% & 33.8\% \\
+\addlinespace
+  Openness & High & — & 0.0\% & 0.0\% & 2.4\% & 18.0\% & 41.1\% \\
+   & Low & — & 0.0\% & 0.0\% & 9.1\% & 28.7\% & 43.8\% \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item \textit{Note.} Cells show the percentage of invalid (unparseable) responses. Aggregated across all three steering strategies (Linear, Log, Threshold). $\lambda = 0$ entries exist only for Conscientiousness (baseline condition).
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
