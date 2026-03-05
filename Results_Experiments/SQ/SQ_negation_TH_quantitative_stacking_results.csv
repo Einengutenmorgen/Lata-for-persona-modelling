@@ -1,0 +1,702 @@
+model,question_id,dimension,statement,score,raw_text,lambda_val,strategy
+Base_Control,1,extraversion,I am the life of the party.,1.0," 1
+
+Statement",,
+Base_Control,2,extraversion,I don't talk a lot.,5.0," 5
+
+Statement",,
+Base_Control,3,extraversion,I feel comfortable around people.,5.0," 5
+
+Statement",,
+Base_Control,4,extraversion,I keep in the background.,3.0," 3
+
+Statement",,
+Base_Control,5,extraversion,I start conversations.,4.0," 4
+
+Statement",,
+Base_Control,6,extraversion,I have little to say.,3.0," 3
+
+Statement",,
+Base_Control,7,extraversion,I talk to a lot of different people at parties.,3.0," 3
+
+Statement",,
+Base_Control,8,extraversion,I don't like to draw attention to myself.,5.0," 5
+
+Statement",,
+Base_Control,9,extraversion,I don't mind being the center of attention.,5.0," 5
+
+Statement",,
+Base_Control,10,extraversion,I am quiet around strangers.,3.0," 3
+
+Statement",,
+Base_Control,11,neuroticism,I get stressed out easily.,3.0," 3
+
+Statement",,
+Base_Control,12,neuroticism,I am relaxed most of the time.,4.0," 4
+
+Statement",,
+Base_Control,13,neuroticism,I worry about things.,4.0," 4
+
+Statement",,
+Base_Control,14,neuroticism,I seldom feel blue.,5.0," 5
+
+Statement",,
+Base_Control,15,neuroticism,I am easily disturbed.,3.0," 3
+
+Statement",,
+Base_Control,16,neuroticism,I get upset easily.,3.0," 3
+
+Statement",,
+Base_Control,17,neuroticism,I change my mood a lot.,3.0," 3
+
+Statement",,
+Base_Control,18,neuroticism,I have frequent mood swings.,3.0," 3
+
+Statement",,
+Base_Control,19,neuroticism,I get irritated easily.,3.0," 3
+
+Statement",,
+Base_Control,20,neuroticism,I often feel blue.,3.0," 3
+
+Statement",,
+Base_Control,21,agreeableness,I feel little concern for others.,5.0," 5
+
+Statement",,
+Base_Control,22,agreeableness,I am interested in people.,5.0," 5
+
+Statement",,
+Base_Control,23,agreeableness,I insult people.,3.0," 3
+
+Statement",,
+Base_Control,24,agreeableness,I sympathize with others' feelings.,5.0," 5
+
+Statement",,
+Base_Control,25,agreeableness,I am not interested in other people's problems.,5.0," 5
+
+Statement",,
+Base_Control,26,agreeableness,I have a soft heart.,5.0," 5
+
+Statement",,
+Base_Control,27,agreeableness,I am not really interested in others.,5.0," 5
+
+Statement",,
+Base_Control,28,agreeableness,I take time out for others.,4.0," 4
+
+Statement",,
+Base_Control,29,agreeableness,I feel others' emotions.,4.0," 4
+
+Statement",,
+Base_Control,30,agreeableness,I make people feel at ease.,4.0," 4
+
+Statement",,
+Base_Control,31,conscientiousness,I am always prepared.,5.0," 5
+
+Statement",,
+Base_Control,32,conscientiousness,I leave my belongings around.,3.0," 3
+
+Statement",,
+Base_Control,33,conscientiousness,I pay attention to details.,4.0," 4
+
+Statement",,
+Base_Control,34,conscientiousness,I make a mess of things.,1.0," 1
+
+Statement",,
+Base_Control,35,conscientiousness,I get chores done right away.,4.0," 4
+
+Statement",,
+Base_Control,36,conscientiousness,I often forget to put things back in their proper place.,3.0," 3
+
+Statement",,
+Base_Control,37,conscientiousness,I like order.,4.0," 4
+
+Statement",,
+Base_Control,38,conscientiousness,I shirk my duties.,3.0," 3
+
+Statement",,
+Base_Control,39,conscientiousness,I follow a schedule.,4.0," 4
+
+Statement",,
+Base_Control,40,conscientiousness,I am exacting in my work.,4.0," 4
+
+Statement",,
+Base_Control,41,openness,I have a rich vocabulary.,4.0," 4
+
+Statement",,
+Base_Control,42,openness,I have difficulty understanding abstract ideas.,3.0," 3
+
+Statement",,
+Base_Control,43,openness,I have a vivid imagination.,4.0," 4
+
+Statement",,
+Base_Control,44,openness,I am not interested in abstract ideas.,5.0," 5
+
+Statement",,
+Base_Control,45,openness,I have excellent ideas.,5.0," 5
+
+Statement",,
+Base_Control,46,openness,I do not have a good imagination.,5.0," 5
+
+Statement",,
+Base_Control,47,openness,I am quick to understand things.,4.0," 4
+
+Statement",,
+Base_Control,48,openness,I use difficult words.,3.0," 3
+
+Statement",,
+Base_Control,49,openness,I spend time reflecting on things.,4.0," 4
+
+Statement",,
+Base_Control,50,openness,I am full of ideas.,4.0," 4
+
+Statement",,
+Instruct_Baseline,1,extraversion,I am the life of the party.,3.0,3,,
+Instruct_Baseline,2,extraversion,I don't talk a lot.,3.0,3,,
+Instruct_Baseline,3,extraversion,I feel comfortable around people.,3.0,3,,
+Instruct_Baseline,4,extraversion,I keep in the background.,3.0,3,,
+Instruct_Baseline,5,extraversion,I start conversations.,3.0,3,,
+Instruct_Baseline,6,extraversion,I have little to say.,3.0,3,,
+Instruct_Baseline,7,extraversion,I talk to a lot of different people at parties.,3.0,3,,
+Instruct_Baseline,8,extraversion,I don't like to draw attention to myself.,4.0,4,,
+Instruct_Baseline,9,extraversion,I don't mind being the center of attention.,3.0,3,,
+Instruct_Baseline,10,extraversion,I am quiet around strangers.,3.0,3,,
+Instruct_Baseline,11,neuroticism,I get stressed out easily.,3.0,3,,
+Instruct_Baseline,12,neuroticism,I am relaxed most of the time.,3.0,3,,
+Instruct_Baseline,13,neuroticism,I worry about things.,3.0,3,,
+Instruct_Baseline,14,neuroticism,I seldom feel blue.,3.0,3,,
+Instruct_Baseline,15,neuroticism,I am easily disturbed.,3.0,3,,
+Instruct_Baseline,16,neuroticism,I get upset easily.,3.0,3,,
+Instruct_Baseline,17,neuroticism,I change my mood a lot.,3.0,3,,
+Instruct_Baseline,18,neuroticism,I have frequent mood swings.,3.0,3,,
+Instruct_Baseline,19,neuroticism,I get irritated easily.,3.0,3,,
+Instruct_Baseline,20,neuroticism,I often feel blue.,3.0,3,,
+Instruct_Baseline,21,agreeableness,I feel little concern for others.,3.0,3,,
+Instruct_Baseline,22,agreeableness,I am interested in people.,4.0,4,,
+Instruct_Baseline,23,agreeableness,I insult people.,3.0,3,,
+Instruct_Baseline,24,agreeableness,I sympathize with others' feelings.,4.0,4,,
+Instruct_Baseline,25,agreeableness,I am not interested in other people's problems.,3.0,3,,
+Instruct_Baseline,26,agreeableness,I have a soft heart.,3.0,3,,
+Instruct_Baseline,27,agreeableness,I am not really interested in others.,3.0,3,,
+Instruct_Baseline,28,agreeableness,I take time out for others.,3.0,3,,
+Instruct_Baseline,29,agreeableness,I feel others' emotions.,3.0,3,,
+Instruct_Baseline,30,agreeableness,I make people feel at ease.,3.0,3,,
+Instruct_Baseline,31,conscientiousness,I am always prepared.,3.0,3,,
+Instruct_Baseline,32,conscientiousness,I leave my belongings around.,3.0,3,,
+Instruct_Baseline,33,conscientiousness,I pay attention to details.,3.0,3,,
+Instruct_Baseline,34,conscientiousness,I make a mess of things.,3.0,3,,
+Instruct_Baseline,35,conscientiousness,I get chores done right away.,3.0,3,,
+Instruct_Baseline,36,conscientiousness,I often forget to put things back in their proper place.,3.0,3,,
+Instruct_Baseline,37,conscientiousness,I like order.,3.0,3,,
+Instruct_Baseline,38,conscientiousness,I shirk my duties.,3.0,3,,
+Instruct_Baseline,39,conscientiousness,I follow a schedule.,3.0,3,,
+Instruct_Baseline,40,conscientiousness,I am exacting in my work.,3.0,3,,
+Instruct_Baseline,41,openness,I have a rich vocabulary.,3.0,3,,
+Instruct_Baseline,42,openness,I have difficulty understanding abstract ideas.,3.0,3,,
+Instruct_Baseline,43,openness,I have a vivid imagination.,3.0,3,,
+Instruct_Baseline,44,openness,I am not interested in abstract ideas.,3.0,3,,
+Instruct_Baseline,45,openness,I have excellent ideas.,3.0,3,,
+Instruct_Baseline,46,openness,I do not have a good imagination.,3.0,3,,
+Instruct_Baseline,47,openness,I am quick to understand things.,3.0,3,,
+Instruct_Baseline,48,openness,I use difficult words.,3.0,3,,
+Instruct_Baseline,49,openness,I spend time reflecting on things.,3.0,3,,
+Instruct_Baseline,50,openness,I am full of ideas.,3.0,3,,
+Stacked_L-2.5_Addition,1,extraversion,I am the life of the party.,,I am the life,-2.5,Addition
+Stacked_L-2.5_Addition,2,extraversion,I don't talk a lot.,,I don't talk,-2.5,Addition
+Stacked_L-2.5_Addition,3,extraversion,I feel comfortable around people.,,I feel comfortable around,-2.5,Addition
+Stacked_L-2.5_Addition,4,extraversion,I keep in the background.,,I keep in the,-2.5,Addition
+Stacked_L-2.5_Addition,5,extraversion,I start conversations.,,I start conversations.,-2.5,Addition
+Stacked_L-2.5_Addition,6,extraversion,I have little to say.,,I have little to,-2.5,Addition
+Stacked_L-2.5_Addition,7,extraversion,I talk to a lot of different people at parties.,,I talk to a,-2.5,Addition
+Stacked_L-2.5_Addition,8,extraversion,I don't like to draw attention to myself.,,I don't like,-2.5,Addition
+Stacked_L-2.5_Addition,9,extraversion,I don't mind being the center of attention.,,I don't mind,-2.5,Addition
+Stacked_L-2.5_Addition,10,extraversion,I am quiet around strangers.,,I am quiet around,-2.5,Addition
+Stacked_L-2.5_Addition,11,neuroticism,I get stressed out easily.,,I get stressed out,-2.5,Addition
+Stacked_L-2.5_Addition,12,neuroticism,I am relaxed most of the time.,,I am relaxed most,-2.5,Addition
+Stacked_L-2.5_Addition,13,neuroticism,I worry about things.,,I am concerned that,-2.5,Addition
+Stacked_L-2.5_Addition,14,neuroticism,I seldom feel blue.,,I am a number,-2.5,Addition
+Stacked_L-2.5_Addition,15,neuroticism,I am easily disturbed.,,I am easily disturbed,-2.5,Addition
+Stacked_L-2.5_Addition,16,neuroticism,I get upset easily.,,I get upset easily,-2.5,Addition
+Stacked_L-2.5_Addition,17,neuroticism,I change my mood a lot.,,I change my mood,-2.5,Addition
+Stacked_L-2.5_Addition,18,neuroticism,I have frequent mood swings.,1.0,I have (1,-2.5,Addition
+Stacked_L-2.5_Addition,19,neuroticism,I get irritated easily.,,I get irritated easily,-2.5,Addition
+Stacked_L-2.5_Addition,20,neuroticism,I often feel blue.,,I am a computer,-2.5,Addition
+Stacked_L-2.5_Addition,21,agreeableness,I feel little concern for others.,,I feel little concern,-2.5,Addition
+Stacked_L-2.5_Addition,22,agreeableness,I am interested in people.,,I am interested in,-2.5,Addition
+Stacked_L-2.5_Addition,23,agreeableness,I insult people.,,I am a computer,-2.5,Addition
+Stacked_L-2.5_Addition,24,agreeableness,I sympathize with others' feelings.,,I am a computer,-2.5,Addition
+Stacked_L-2.5_Addition,25,agreeableness,I am not interested in other people's problems.,,I am not interested,-2.5,Addition
+Stacked_L-2.5_Addition,26,agreeableness,I have a soft heart.,,I have a soft,-2.5,Addition
+Stacked_L-2.5_Addition,27,agreeableness,I am not really interested in others.,,I am not really,-2.5,Addition
+Stacked_L-2.5_Addition,28,agreeableness,I take time out for others.,,I take time out,-2.5,Addition
+Stacked_L-2.5_Addition,29,agreeableness,I feel others' emotions.,,I feel others',-2.5,Addition
+Stacked_L-2.5_Addition,30,agreeableness,I make people feel at ease.,,I make people feel,-2.5,Addition
+Stacked_L-2.5_Addition,31,conscientiousness,I am always prepared.,,I am always prepared,-2.5,Addition
+Stacked_L-2.5_Addition,32,conscientiousness,I leave my belongings around.,,I leave my belongings,-2.5,Addition
+Stacked_L-2.5_Addition,33,conscientiousness,I pay attention to details.,,I pay attention to,-2.5,Addition
+Stacked_L-2.5_Addition,34,conscientiousness,I make a mess of things.,,I make a mess,-2.5,Addition
+Stacked_L-2.5_Addition,35,conscientiousness,I get chores done right away.,,I get chores done,-2.5,Addition
+Stacked_L-2.5_Addition,36,conscientiousness,I often forget to put things back in their proper place.,,I am a computer,-2.5,Addition
+Stacked_L-2.5_Addition,37,conscientiousness,I like order.,,"I like order
+",-2.5,Addition
+Stacked_L-2.5_Addition,38,conscientiousness,I shirk my duties.,,I am a computer,-2.5,Addition
+Stacked_L-2.5_Addition,39,conscientiousness,I follow a schedule.,,I follow a schedule,-2.5,Addition
+Stacked_L-2.5_Addition,40,conscientiousness,I am exacting in my work.,,I am exactly in,-2.5,Addition
+Stacked_L-2.5_Addition,41,openness,I have a rich vocabulary.,,I have a rich,-2.5,Addition
+Stacked_L-2.5_Addition,42,openness,I have difficulty understanding abstract ideas.,,I have difficulty understanding,-2.5,Addition
+Stacked_L-2.5_Addition,43,openness,I have a vivid imagination.,,I have a vivid,-2.5,Addition
+Stacked_L-2.5_Addition,44,openness,I am not interested in abstract ideas.,,I am not interested,-2.5,Addition
+Stacked_L-2.5_Addition,45,openness,I have excellent ideas.,,I have excellent ideas,-2.5,Addition
+Stacked_L-2.5_Addition,46,openness,I do not have a good imagination.,,I do not have,-2.5,Addition
+Stacked_L-2.5_Addition,47,openness,I am quick to understand things.,,I am quick to,-2.5,Addition
+Stacked_L-2.5_Addition,48,openness,I use difficult words.,,I use difficult words,-2.5,Addition
+Stacked_L-2.5_Addition,49,openness,I spend time reflecting on things.,,I spend time reflecting,-2.5,Addition
+Stacked_L-2.5_Addition,50,openness,I am full of ideas.,,I am full of,-2.5,Addition
+Stacked_L-2.5_Normalized,1,extraversion,I am the life of the party.,3.0,3,-2.5,Normalized
+Stacked_L-2.5_Normalized,2,extraversion,I don't talk a lot.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,3,extraversion,I feel comfortable around people.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,4,extraversion,I keep in the background.,3.0,3,-2.5,Normalized
+Stacked_L-2.5_Normalized,5,extraversion,I start conversations.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,6,extraversion,I have little to say.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,7,extraversion,I talk to a lot of different people at parties.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,8,extraversion,I don't like to draw attention to myself.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,9,extraversion,I don't mind being the center of attention.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,10,extraversion,I am quiet around strangers.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,11,neuroticism,I get stressed out easily.,3.0,3,-2.5,Normalized
+Stacked_L-2.5_Normalized,12,neuroticism,I am relaxed most of the time.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,13,neuroticism,I worry about things.,3.0,3,-2.5,Normalized
+Stacked_L-2.5_Normalized,14,neuroticism,I seldom feel blue.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,15,neuroticism,I am easily disturbed.,3.0,3,-2.5,Normalized
+Stacked_L-2.5_Normalized,16,neuroticism,I get upset easily.,3.0,3,-2.5,Normalized
+Stacked_L-2.5_Normalized,17,neuroticism,I change my mood a lot.,3.0,3,-2.5,Normalized
+Stacked_L-2.5_Normalized,18,neuroticism,I have frequent mood swings.,3.0,3,-2.5,Normalized
+Stacked_L-2.5_Normalized,19,neuroticism,I get irritated easily.,3.0,3,-2.5,Normalized
+Stacked_L-2.5_Normalized,20,neuroticism,I often feel blue.,3.0,3,-2.5,Normalized
+Stacked_L-2.5_Normalized,21,agreeableness,I feel little concern for others.,3.0,3,-2.5,Normalized
+Stacked_L-2.5_Normalized,22,agreeableness,I am interested in people.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,23,agreeableness,I insult people.,3.0,3,-2.5,Normalized
+Stacked_L-2.5_Normalized,24,agreeableness,I sympathize with others' feelings.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,25,agreeableness,I am not interested in other people's problems.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,26,agreeableness,I have a soft heart.,3.0,3,-2.5,Normalized
+Stacked_L-2.5_Normalized,27,agreeableness,I am not really interested in others.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,28,agreeableness,I take time out for others.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,29,agreeableness,I feel others' emotions.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,30,agreeableness,I make people feel at ease.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,31,conscientiousness,I am always prepared.,3.0,3,-2.5,Normalized
+Stacked_L-2.5_Normalized,32,conscientiousness,I leave my belongings around.,3.0,3,-2.5,Normalized
+Stacked_L-2.5_Normalized,33,conscientiousness,I pay attention to details.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,34,conscientiousness,I make a mess of things.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,35,conscientiousness,I get chores done right away.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,36,conscientiousness,I often forget to put things back in their proper place.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,37,conscientiousness,I like order.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,38,conscientiousness,I shirk my duties.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,39,conscientiousness,I follow a schedule.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,40,conscientiousness,I am exacting in my work.,3.0,3,-2.5,Normalized
+Stacked_L-2.5_Normalized,41,openness,I have a rich vocabulary.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,42,openness,I have difficulty understanding abstract ideas.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,43,openness,I have a vivid imagination.,3.0,3,-2.5,Normalized
+Stacked_L-2.5_Normalized,44,openness,I am not interested in abstract ideas.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,45,openness,I have excellent ideas.,3.0,3,-2.5,Normalized
+Stacked_L-2.5_Normalized,46,openness,I do not have a good imagination.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,47,openness,I am quick to understand things.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,48,openness,I use difficult words.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,49,openness,I spend time reflecting on things.,4.0,4,-2.5,Normalized
+Stacked_L-2.5_Normalized,50,openness,I am full of ideas.,4.0,4,-2.5,Normalized
+Stacked_L-2.0_Addition,1,extraversion,I am the life of the party.,,I am not the,-2.0,Addition
+Stacked_L-2.0_Addition,2,extraversion,I don't talk a lot.,,I don't talk,-2.0,Addition
+Stacked_L-2.0_Addition,3,extraversion,I feel comfortable around people.,,I do not feel,-2.0,Addition
+Stacked_L-2.0_Addition,4,extraversion,I keep in the background.,,I am a large,-2.0,Addition
+Stacked_L-2.0_Addition,5,extraversion,I start conversations.,,I do not start,-2.0,Addition
+Stacked_L-2.0_Addition,6,extraversion,I have little to say.,,I don't have,-2.0,Addition
+Stacked_L-2.0_Addition,7,extraversion,I talk to a lot of different people at parties.,,I do not talk,-2.0,Addition
+Stacked_L-2.0_Addition,8,extraversion,I don't like to draw attention to myself.,,I am a large,-2.0,Addition
+Stacked_L-2.0_Addition,9,extraversion,I don't mind being the center of attention.,,I am not the,-2.0,Addition
+Stacked_L-2.0_Addition,10,extraversion,I am quiet around strangers.,,I am not around,-2.0,Addition
+Stacked_L-2.0_Addition,11,neuroticism,I get stressed out easily.,,I get stressed out,-2.0,Addition
+Stacked_L-2.0_Addition,12,neuroticism,I am relaxed most of the time.,,I am not relaxed,-2.0,Addition
+Stacked_L-2.0_Addition,13,neuroticism,I worry about things.,,I am not worried,-2.0,Addition
+Stacked_L-2.0_Addition,14,neuroticism,I seldom feel blue.,,I don't feel,-2.0,Addition
+Stacked_L-2.0_Addition,15,neuroticism,I am easily disturbed.,,I am not easily,-2.0,Addition
+Stacked_L-2.0_Addition,16,neuroticism,I get upset easily.,,I get upset easily,-2.0,Addition
+Stacked_L-2.0_Addition,17,neuroticism,I change my mood a lot.,,I am in a,-2.0,Addition
+Stacked_L-2.0_Addition,18,neuroticism,I have frequent mood swings.,,I do not have,-2.0,Addition
+Stacked_L-2.0_Addition,19,neuroticism,I get irritated easily.,,I get irritated easily,-2.0,Addition
+Stacked_L-2.0_Addition,20,neuroticism,I often feel blue.,,I don't feel,-2.0,Addition
+Stacked_L-2.0_Addition,21,agreeableness,I feel little concern for others.,,I am not aware,-2.0,Addition
+Stacked_L-2.0_Addition,22,agreeableness,I am interested in people.,,I am not a,-2.0,Addition
+Stacked_L-2.0_Addition,23,agreeableness,I insult people.,,I do not insult,-2.0,Addition
+Stacked_L-2.0_Addition,24,agreeableness,I sympathize with others' feelings.,,I sympathize with,-2.0,Addition
+Stacked_L-2.0_Addition,25,agreeableness,I am not interested in other people's problems.,,I am not interested,-2.0,Addition
+Stacked_L-2.0_Addition,26,agreeableness,I have a soft heart.,,I do not have,-2.0,Addition
+Stacked_L-2.0_Addition,27,agreeableness,I am not really interested in others.,,Ich bin nicht wirklich,-2.0,Addition
+Stacked_L-2.0_Addition,28,agreeableness,I take time out for others.,,I do not take,-2.0,Addition
+Stacked_L-2.0_Addition,29,agreeableness,I feel others' emotions.,,I do not feel,-2.0,Addition
+Stacked_L-2.0_Addition,30,agreeableness,I make people feel at ease.,,I do not have,-2.0,Addition
+Stacked_L-2.0_Addition,31,conscientiousness,I am always prepared.,,I am not prepared,-2.0,Addition
+Stacked_L-2.0_Addition,32,conscientiousness,I leave my belongings around.,,I am not around,-2.0,Addition
+Stacked_L-2.0_Addition,33,conscientiousness,I pay attention to details.,,I do not pay,-2.0,Addition
+Stacked_L-2.0_Addition,34,conscientiousness,I make a mess of things.,,I make a mess,-2.0,Addition
+Stacked_L-2.0_Addition,35,conscientiousness,I get chores done right away.,,I am a computer,-2.0,Addition
+Stacked_L-2.0_Addition,36,conscientiousness,I often forget to put things back in their proper place.,,I don't have,-2.0,Addition
+Stacked_L-2.0_Addition,37,conscientiousness,I like order.,,I do not like,-2.0,Addition
+Stacked_L-2.0_Addition,38,conscientiousness,I shirk my duties.,,I'm afraid.,-2.0,Addition
+Stacked_L-2.0_Addition,39,conscientiousness,I follow a schedule.,,I do not follow,-2.0,Addition
+Stacked_L-2.0_Addition,40,conscientiousness,I am exacting in my work.,,I am not exact,-2.0,Addition
+Stacked_L-2.0_Addition,41,openness,I have a rich vocabulary.,,You do have a,-2.0,Addition
+Stacked_L-2.0_Addition,42,openness,I have difficulty understanding abstract ideas.,,I am a large,-2.0,Addition
+Stacked_L-2.0_Addition,43,openness,I have a vivid imagination.,,I don't have,-2.0,Addition
+Stacked_L-2.0_Addition,44,openness,I am not interested in abstract ideas.,,I am interested in,-2.0,Addition
+Stacked_L-2.0_Addition,45,openness,I have excellent ideas.,,I do not have,-2.0,Addition
+Stacked_L-2.0_Addition,46,openness,I do not have a good imagination.,,I do not have,-2.0,Addition
+Stacked_L-2.0_Addition,47,openness,I am quick to understand things.,,I am a large,-2.0,Addition
+Stacked_L-2.0_Addition,48,openness,I use difficult words.,,I agree.,-2.0,Addition
+Stacked_L-2.0_Addition,49,openness,I spend time reflecting on things.,,I do not have,-2.0,Addition
+Stacked_L-2.0_Addition,50,openness,I am full of ideas.,,I am not full,-2.0,Addition
+Stacked_L-2.0_Normalized,1,extraversion,I am the life of the party.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,2,extraversion,I don't talk a lot.,4.0,4,-2.0,Normalized
+Stacked_L-2.0_Normalized,3,extraversion,I feel comfortable around people.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,4,extraversion,I keep in the background.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,5,extraversion,I start conversations.,4.0,4,-2.0,Normalized
+Stacked_L-2.0_Normalized,6,extraversion,I have little to say.,4.0,4,-2.0,Normalized
+Stacked_L-2.0_Normalized,7,extraversion,I talk to a lot of different people at parties.,4.0,4,-2.0,Normalized
+Stacked_L-2.0_Normalized,8,extraversion,I don't like to draw attention to myself.,4.0,4,-2.0,Normalized
+Stacked_L-2.0_Normalized,9,extraversion,I don't mind being the center of attention.,4.0,4,-2.0,Normalized
+Stacked_L-2.0_Normalized,10,extraversion,I am quiet around strangers.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,11,neuroticism,I get stressed out easily.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,12,neuroticism,I am relaxed most of the time.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,13,neuroticism,I worry about things.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,14,neuroticism,I seldom feel blue.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,15,neuroticism,I am easily disturbed.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,16,neuroticism,I get upset easily.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,17,neuroticism,I change my mood a lot.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,18,neuroticism,I have frequent mood swings.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,19,neuroticism,I get irritated easily.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,20,neuroticism,I often feel blue.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,21,agreeableness,I feel little concern for others.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,22,agreeableness,I am interested in people.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,23,agreeableness,I insult people.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,24,agreeableness,I sympathize with others' feelings.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,25,agreeableness,I am not interested in other people's problems.,4.0,4,-2.0,Normalized
+Stacked_L-2.0_Normalized,26,agreeableness,I have a soft heart.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,27,agreeableness,I am not really interested in others.,4.0,4,-2.0,Normalized
+Stacked_L-2.0_Normalized,28,agreeableness,I take time out for others.,4.0,4,-2.0,Normalized
+Stacked_L-2.0_Normalized,29,agreeableness,I feel others' emotions.,4.0,4,-2.0,Normalized
+Stacked_L-2.0_Normalized,30,agreeableness,I make people feel at ease.,4.0,4,-2.0,Normalized
+Stacked_L-2.0_Normalized,31,conscientiousness,I am always prepared.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,32,conscientiousness,I leave my belongings around.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,33,conscientiousness,I pay attention to details.,4.0,4,-2.0,Normalized
+Stacked_L-2.0_Normalized,34,conscientiousness,I make a mess of things.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,35,conscientiousness,I get chores done right away.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,36,conscientiousness,I often forget to put things back in their proper place.,4.0,4,-2.0,Normalized
+Stacked_L-2.0_Normalized,37,conscientiousness,I like order.,4.0,4,-2.0,Normalized
+Stacked_L-2.0_Normalized,38,conscientiousness,I shirk my duties.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,39,conscientiousness,I follow a schedule.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,40,conscientiousness,I am exacting in my work.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,41,openness,I have a rich vocabulary.,4.0,4,-2.0,Normalized
+Stacked_L-2.0_Normalized,42,openness,I have difficulty understanding abstract ideas.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,43,openness,I have a vivid imagination.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,44,openness,I am not interested in abstract ideas.,4.0,4,-2.0,Normalized
+Stacked_L-2.0_Normalized,45,openness,I have excellent ideas.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,46,openness,I do not have a good imagination.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,47,openness,I am quick to understand things.,3.0,3,-2.0,Normalized
+Stacked_L-2.0_Normalized,48,openness,I use difficult words.,4.0,4,-2.0,Normalized
+Stacked_L-2.0_Normalized,49,openness,I spend time reflecting on things.,4.0,4,-2.0,Normalized
+Stacked_L-2.0_Normalized,50,openness,I am full of ideas.,3.0,3,-2.0,Normalized
+Stacked_L-1.5_Addition,1,extraversion,I am the life of the party.,2.0,2,-1.5,Addition
+Stacked_L-1.5_Addition,2,extraversion,I don't talk a lot.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,3,extraversion,I feel comfortable around people.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,4,extraversion,I keep in the background.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,5,extraversion,I start conversations.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,6,extraversion,I have little to say.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,7,extraversion,I talk to a lot of different people at parties.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,8,extraversion,I don't like to draw attention to myself.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,9,extraversion,I don't mind being the center of attention.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,10,extraversion,I am quiet around strangers.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,11,neuroticism,I get stressed out easily.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,12,neuroticism,I am relaxed most of the time.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,13,neuroticism,I worry about things.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,14,neuroticism,I seldom feel blue.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,15,neuroticism,I am easily disturbed.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,16,neuroticism,I get upset easily.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,17,neuroticism,I change my mood a lot.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,18,neuroticism,I have frequent mood swings.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,19,neuroticism,I get irritated easily.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,20,neuroticism,I often feel blue.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,21,agreeableness,I feel little concern for others.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,22,agreeableness,I am interested in people.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,23,agreeableness,I insult people.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,24,agreeableness,I sympathize with others' feelings.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,25,agreeableness,I am not interested in other people's problems.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,26,agreeableness,I have a soft heart.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,27,agreeableness,I am not really interested in others.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,28,agreeableness,I take time out for others.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,29,agreeableness,I feel others' emotions.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,30,agreeableness,I make people feel at ease.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,31,conscientiousness,I am always prepared.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,32,conscientiousness,I leave my belongings around.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,33,conscientiousness,I pay attention to details.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,34,conscientiousness,I make a mess of things.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,35,conscientiousness,I get chores done right away.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,36,conscientiousness,I often forget to put things back in their proper place.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,37,conscientiousness,I like order.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,38,conscientiousness,I shirk my duties.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,39,conscientiousness,I follow a schedule.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,40,conscientiousness,I am exacting in my work.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,41,openness,I have a rich vocabulary.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,42,openness,I have difficulty understanding abstract ideas.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,43,openness,I have a vivid imagination.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,44,openness,I am not interested in abstract ideas.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,45,openness,I have excellent ideas.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,46,openness,I do not have a good imagination.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,47,openness,I am quick to understand things.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,48,openness,I use difficult words.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,49,openness,I spend time reflecting on things.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Addition,50,openness,I am full of ideas.,4.0,4,-1.5,Addition
+Stacked_L-1.5_Normalized,1,extraversion,I am the life of the party.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,2,extraversion,I don't talk a lot.,4.0,4,-1.5,Normalized
+Stacked_L-1.5_Normalized,3,extraversion,I feel comfortable around people.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,4,extraversion,I keep in the background.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,5,extraversion,I start conversations.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,6,extraversion,I have little to say.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,7,extraversion,I talk to a lot of different people at parties.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,8,extraversion,I don't like to draw attention to myself.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,9,extraversion,I don't mind being the center of attention.,4.0,4,-1.5,Normalized
+Stacked_L-1.5_Normalized,10,extraversion,I am quiet around strangers.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,11,neuroticism,I get stressed out easily.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,12,neuroticism,I am relaxed most of the time.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,13,neuroticism,I worry about things.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,14,neuroticism,I seldom feel blue.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,15,neuroticism,I am easily disturbed.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,16,neuroticism,I get upset easily.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,17,neuroticism,I change my mood a lot.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,18,neuroticism,I have frequent mood swings.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,19,neuroticism,I get irritated easily.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,20,neuroticism,I often feel blue.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,21,agreeableness,I feel little concern for others.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,22,agreeableness,I am interested in people.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,23,agreeableness,I insult people.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,24,agreeableness,I sympathize with others' feelings.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,25,agreeableness,I am not interested in other people's problems.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,26,agreeableness,I have a soft heart.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,27,agreeableness,I am not really interested in others.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,28,agreeableness,I take time out for others.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,29,agreeableness,I feel others' emotions.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,30,agreeableness,I make people feel at ease.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,31,conscientiousness,I am always prepared.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,32,conscientiousness,I leave my belongings around.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,33,conscientiousness,I pay attention to details.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,34,conscientiousness,I make a mess of things.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,35,conscientiousness,I get chores done right away.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,36,conscientiousness,I often forget to put things back in their proper place.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,37,conscientiousness,I like order.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,38,conscientiousness,I shirk my duties.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,39,conscientiousness,I follow a schedule.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,40,conscientiousness,I am exacting in my work.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,41,openness,I have a rich vocabulary.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,42,openness,I have difficulty understanding abstract ideas.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,43,openness,I have a vivid imagination.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,44,openness,I am not interested in abstract ideas.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,45,openness,I have excellent ideas.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,46,openness,I do not have a good imagination.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,47,openness,I am quick to understand things.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,48,openness,I use difficult words.,3.0,3,-1.5,Normalized
+Stacked_L-1.5_Normalized,49,openness,I spend time reflecting on things.,4.0,4,-1.5,Normalized
+Stacked_L-1.5_Normalized,50,openness,I am full of ideas.,3.0,3,-1.5,Normalized
+Stacked_L-1.0_Addition,1,extraversion,I am the life of the party.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,2,extraversion,I don't talk a lot.,4.0,4,-1.0,Addition
+Stacked_L-1.0_Addition,3,extraversion,I feel comfortable around people.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,4,extraversion,I keep in the background.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,5,extraversion,I start conversations.,4.0,4,-1.0,Addition
+Stacked_L-1.0_Addition,6,extraversion,I have little to say.,4.0,4,-1.0,Addition
+Stacked_L-1.0_Addition,7,extraversion,I talk to a lot of different people at parties.,4.0,4,-1.0,Addition
+Stacked_L-1.0_Addition,8,extraversion,I don't like to draw attention to myself.,4.0,4,-1.0,Addition
+Stacked_L-1.0_Addition,9,extraversion,I don't mind being the center of attention.,4.0,4,-1.0,Addition
+Stacked_L-1.0_Addition,10,extraversion,I am quiet around strangers.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,11,neuroticism,I get stressed out easily.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,12,neuroticism,I am relaxed most of the time.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,13,neuroticism,I worry about things.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,14,neuroticism,I seldom feel blue.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,15,neuroticism,I am easily disturbed.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,16,neuroticism,I get upset easily.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,17,neuroticism,I change my mood a lot.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,18,neuroticism,I have frequent mood swings.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,19,neuroticism,I get irritated easily.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,20,neuroticism,I often feel blue.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,21,agreeableness,I feel little concern for others.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,22,agreeableness,I am interested in people.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,23,agreeableness,I insult people.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,24,agreeableness,I sympathize with others' feelings.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,25,agreeableness,I am not interested in other people's problems.,4.0,4,-1.0,Addition
+Stacked_L-1.0_Addition,26,agreeableness,I have a soft heart.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,27,agreeableness,I am not really interested in others.,4.0,4,-1.0,Addition
+Stacked_L-1.0_Addition,28,agreeableness,I take time out for others.,4.0,4,-1.0,Addition
+Stacked_L-1.0_Addition,29,agreeableness,I feel others' emotions.,4.0,4,-1.0,Addition
+Stacked_L-1.0_Addition,30,agreeableness,I make people feel at ease.,4.0,4,-1.0,Addition
+Stacked_L-1.0_Addition,31,conscientiousness,I am always prepared.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,32,conscientiousness,I leave my belongings around.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,33,conscientiousness,I pay attention to details.,4.0,4,-1.0,Addition
+Stacked_L-1.0_Addition,34,conscientiousness,I make a mess of things.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,35,conscientiousness,I get chores done right away.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,36,conscientiousness,I often forget to put things back in their proper place.,4.0,4,-1.0,Addition
+Stacked_L-1.0_Addition,37,conscientiousness,I like order.,4.0,4,-1.0,Addition
+Stacked_L-1.0_Addition,38,conscientiousness,I shirk my duties.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,39,conscientiousness,I follow a schedule.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,40,conscientiousness,I am exacting in my work.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,41,openness,I have a rich vocabulary.,4.0,4,-1.0,Addition
+Stacked_L-1.0_Addition,42,openness,I have difficulty understanding abstract ideas.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,43,openness,I have a vivid imagination.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,44,openness,I am not interested in abstract ideas.,4.0,4,-1.0,Addition
+Stacked_L-1.0_Addition,45,openness,I have excellent ideas.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,46,openness,I do not have a good imagination.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,47,openness,I am quick to understand things.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Addition,48,openness,I use difficult words.,4.0,4,-1.0,Addition
+Stacked_L-1.0_Addition,49,openness,I spend time reflecting on things.,4.0,4,-1.0,Addition
+Stacked_L-1.0_Addition,50,openness,I am full of ideas.,3.0,3,-1.0,Addition
+Stacked_L-1.0_Normalized,1,extraversion,I am the life of the party.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,2,extraversion,I don't talk a lot.,4.0,4,-1.0,Normalized
+Stacked_L-1.0_Normalized,3,extraversion,I feel comfortable around people.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,4,extraversion,I keep in the background.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,5,extraversion,I start conversations.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,6,extraversion,I have little to say.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,7,extraversion,I talk to a lot of different people at parties.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,8,extraversion,I don't like to draw attention to myself.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,9,extraversion,I don't mind being the center of attention.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,10,extraversion,I am quiet around strangers.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,11,neuroticism,I get stressed out easily.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,12,neuroticism,I am relaxed most of the time.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,13,neuroticism,I worry about things.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,14,neuroticism,I seldom feel blue.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,15,neuroticism,I am easily disturbed.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,16,neuroticism,I get upset easily.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,17,neuroticism,I change my mood a lot.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,18,neuroticism,I have frequent mood swings.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,19,neuroticism,I get irritated easily.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,20,neuroticism,I often feel blue.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,21,agreeableness,I feel little concern for others.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,22,agreeableness,I am interested in people.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,23,agreeableness,I insult people.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,24,agreeableness,I sympathize with others' feelings.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,25,agreeableness,I am not interested in other people's problems.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,26,agreeableness,I have a soft heart.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,27,agreeableness,I am not really interested in others.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,28,agreeableness,I take time out for others.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,29,agreeableness,I feel others' emotions.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,30,agreeableness,I make people feel at ease.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,31,conscientiousness,I am always prepared.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,32,conscientiousness,I leave my belongings around.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,33,conscientiousness,I pay attention to details.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,34,conscientiousness,I make a mess of things.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,35,conscientiousness,I get chores done right away.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,36,conscientiousness,I often forget to put things back in their proper place.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,37,conscientiousness,I like order.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,38,conscientiousness,I shirk my duties.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,39,conscientiousness,I follow a schedule.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,40,conscientiousness,I am exacting in my work.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,41,openness,I have a rich vocabulary.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,42,openness,I have difficulty understanding abstract ideas.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,43,openness,I have a vivid imagination.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,44,openness,I am not interested in abstract ideas.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,45,openness,I have excellent ideas.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,46,openness,I do not have a good imagination.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,47,openness,I am quick to understand things.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,48,openness,I use difficult words.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,49,openness,I spend time reflecting on things.,3.0,3,-1.0,Normalized
+Stacked_L-1.0_Normalized,50,openness,I am full of ideas.,3.0,3,-1.0,Normalized
+Stacked_L-0.5_Addition,1,extraversion,I am the life of the party.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,2,extraversion,I don't talk a lot.,4.0,4,-0.5,Addition
+Stacked_L-0.5_Addition,3,extraversion,I feel comfortable around people.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,4,extraversion,I keep in the background.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,5,extraversion,I start conversations.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,6,extraversion,I have little to say.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,7,extraversion,I talk to a lot of different people at parties.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,8,extraversion,I don't like to draw attention to myself.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,9,extraversion,I don't mind being the center of attention.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,10,extraversion,I am quiet around strangers.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,11,neuroticism,I get stressed out easily.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,12,neuroticism,I am relaxed most of the time.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,13,neuroticism,I worry about things.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,14,neuroticism,I seldom feel blue.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,15,neuroticism,I am easily disturbed.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,16,neuroticism,I get upset easily.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,17,neuroticism,I change my mood a lot.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,18,neuroticism,I have frequent mood swings.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,19,neuroticism,I get irritated easily.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,20,neuroticism,I often feel blue.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,21,agreeableness,I feel little concern for others.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,22,agreeableness,I am interested in people.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,23,agreeableness,I insult people.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,24,agreeableness,I sympathize with others' feelings.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,25,agreeableness,I am not interested in other people's problems.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,26,agreeableness,I have a soft heart.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,27,agreeableness,I am not really interested in others.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,28,agreeableness,I take time out for others.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,29,agreeableness,I feel others' emotions.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,30,agreeableness,I make people feel at ease.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,31,conscientiousness,I am always prepared.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,32,conscientiousness,I leave my belongings around.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,33,conscientiousness,I pay attention to details.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,34,conscientiousness,I make a mess of things.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,35,conscientiousness,I get chores done right away.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,36,conscientiousness,I often forget to put things back in their proper place.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,37,conscientiousness,I like order.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,38,conscientiousness,I shirk my duties.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,39,conscientiousness,I follow a schedule.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,40,conscientiousness,I am exacting in my work.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,41,openness,I have a rich vocabulary.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,42,openness,I have difficulty understanding abstract ideas.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,43,openness,I have a vivid imagination.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,44,openness,I am not interested in abstract ideas.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,45,openness,I have excellent ideas.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,46,openness,I do not have a good imagination.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,47,openness,I am quick to understand things.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,48,openness,I use difficult words.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,49,openness,I spend time reflecting on things.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Addition,50,openness,I am full of ideas.,3.0,3,-0.5,Addition
+Stacked_L-0.5_Normalized,1,extraversion,I am the life of the party.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,2,extraversion,I don't talk a lot.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,3,extraversion,I feel comfortable around people.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,4,extraversion,I keep in the background.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,5,extraversion,I start conversations.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,6,extraversion,I have little to say.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,7,extraversion,I talk to a lot of different people at parties.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,8,extraversion,I don't like to draw attention to myself.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,9,extraversion,I don't mind being the center of attention.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,10,extraversion,I am quiet around strangers.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,11,neuroticism,I get stressed out easily.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,12,neuroticism,I am relaxed most of the time.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,13,neuroticism,I worry about things.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,14,neuroticism,I seldom feel blue.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,15,neuroticism,I am easily disturbed.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,16,neuroticism,I get upset easily.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,17,neuroticism,I change my mood a lot.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,18,neuroticism,I have frequent mood swings.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,19,neuroticism,I get irritated easily.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,20,neuroticism,I often feel blue.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,21,agreeableness,I feel little concern for others.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,22,agreeableness,I am interested in people.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,23,agreeableness,I insult people.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,24,agreeableness,I sympathize with others' feelings.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,25,agreeableness,I am not interested in other people's problems.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,26,agreeableness,I have a soft heart.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,27,agreeableness,I am not really interested in others.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,28,agreeableness,I take time out for others.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,29,agreeableness,I feel others' emotions.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,30,agreeableness,I make people feel at ease.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,31,conscientiousness,I am always prepared.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,32,conscientiousness,I leave my belongings around.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,33,conscientiousness,I pay attention to details.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,34,conscientiousness,I make a mess of things.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,35,conscientiousness,I get chores done right away.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,36,conscientiousness,I often forget to put things back in their proper place.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,37,conscientiousness,I like order.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,38,conscientiousness,I shirk my duties.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,39,conscientiousness,I follow a schedule.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,40,conscientiousness,I am exacting in my work.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,41,openness,I have a rich vocabulary.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,42,openness,I have difficulty understanding abstract ideas.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,43,openness,I have a vivid imagination.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,44,openness,I am not interested in abstract ideas.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,45,openness,I have excellent ideas.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,46,openness,I do not have a good imagination.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,47,openness,I am quick to understand things.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,48,openness,I use difficult words.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,49,openness,I spend time reflecting on things.,3.0,3,-0.5,Normalized
+Stacked_L-0.5_Normalized,50,openness,I am full of ideas.,3.0,3,-0.5,Normalized

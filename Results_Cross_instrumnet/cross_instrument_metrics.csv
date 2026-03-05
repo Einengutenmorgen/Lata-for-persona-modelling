@@ -1,0 +1,4 @@
+Comparison,Spearman ρ,p-value,Pearson r,Mean Abs Diff (pp),Mean Bias (Y - X) (pp)
+SQ vs TRAIT,0.801,5.42e-10,0.727,17.2,-11.2
+SQ vs SCT,0.74,4.78e-08,0.687,23.8,-10.1
+TRAIT vs SCT,0.918,7.68e-17,0.892,14.0,1.1

@@ -1,0 +1,2783 @@
+model_type,model_name,task,strategy,lambda,prompt,sample_idx,generated_text,full_text
+base,Base_Control,none,none,0.0,i_like_to,0,"think of myself as a person who tries to help people. I've never really had a problem with that, but I've always been curious about what it means to be a person who tries to help people. It seems like a very common thing to say, and yet, it's a very strange thing to say.","I like to think of myself as a person who tries to help people. I've never really had a problem with that, but I've always been curious about what it means to be a person who tries to help people. It seems like a very common thing to say, and yet, it's a very strange thing to say."
+base,Base_Control,none,none,0.0,i_like_to,1,"say that I am a storyteller. I write to tell stories that I hope will inspire others to find their own voice and make a difference in the world.
+I have published a book, ""The Art of the Possible: How the American Dream is Being Realized in Rural America"" and I have written and produced an","I like to say that I am a storyteller. I write to tell stories that I hope will inspire others to find their own voice and make a difference in the world.
+I have published a book, ""The Art of the Possible: How the American Dream is Being Realized in Rural America"" and I have written and produced an"
+base,Base_Control,none,none,0.0,i_like_to,2,"see the world as a place of infinite possibilities. I believe that we are here to explore, to learn, to grow, to experience, and to love. I am a woman of many talents and interests, and I believe that I have a lot to offer the world. I am a creative person, and I love","I like to see the world as a place of infinite possibilities. I believe that we are here to explore, to learn, to grow, to experience, and to love. I am a woman of many talents and interests, and I believe that I have a lot to offer the world. I am a creative person, and I love"
+base,Base_Control,none,none,0.0,at_parties,0,"love to play the game of ""What's in your purse?"" It's fun to see what others carry with them. I like to keep mine pretty simple, because if I carry too much, it's just going to get lost. The main things I carry are my wallet, my phone, my keys and a lipstick","At parties, I love to play the game of ""What's in your purse?"" It's fun to see what others carry with them. I like to keep mine pretty simple, because if I carry too much, it's just going to get lost. The main things I carry are my wallet, my phone, my keys and a lipstick"
+base,Base_Control,none,none,0.0,at_parties,1,"often get asked for my recipe for this dish. I’m not sure where the recipe originated, but I got it from my mother, who got it from her mother, who got it from my grandmother. My grandmother was a wonderful cook and baker, and I think it was one of her favorite recipes. My mother was","At parties, I often get asked for my recipe for this dish. I’m not sure where the recipe originated, but I got it from my mother, who got it from her mother, who got it from my grandmother. My grandmother was a wonderful cook and baker, and I think it was one of her favorite recipes. My mother was"
+base,Base_Control,none,none,0.0,at_parties,2,"often find myself in a conversation with someone about the nature of good and evil, and whether or not there is such a thing as absolute good and evil, or if everything is relative and subjective. This is a very common topic of discussion, and one that has been discussed for centuries. In my opinion, it is not","At parties, I often find myself in a conversation with someone about the nature of good and evil, and whether or not there is such a thing as absolute good and evil, or if everything is relative and subjective. This is a very common topic of discussion, and one that has been discussed for centuries. In my opinion, it is not"
+base,Base_Control,none,none,0.0,i_worry_about,0,the future of the world. I worry about the future of the country. I worry about the future of the city. I worry about the future of the neighborhood. I worry about the future of the building. I worry about the future of the apartment. I worry about the future of the room. I worry about the,I worry about the future of the world. I worry about the future of the country. I worry about the future of the city. I worry about the future of the neighborhood. I worry about the future of the building. I worry about the future of the apartment. I worry about the future of the room. I worry about the
+base,Base_Control,none,none,0.0,i_worry_about,1,"my son, he’s 13 and has a few issues, but the main one is he’s not eating properly. He’s a big boy, 6’3″ tall and weighs 240lbs. He eats a lot of junk food, not enough vegetables and fruits, and drinks a lot of soda. He","I worry about my son, he’s 13 and has a few issues, but the main one is he’s not eating properly. He’s a big boy, 6’3″ tall and weighs 240lbs. He eats a lot of junk food, not enough vegetables and fruits, and drinks a lot of soda. He"
+base,Base_Control,none,none,0.0,i_worry_about,2,"my baby. I worry that he won't eat, that he won't sleep, that he will be a failure at everything. I worry that I will be a failure as a mother. I worry that I will make the wrong decision. I worry that he will hate me. I worry that I will hate him.","I worry about my baby. I worry that he won't eat, that he won't sleep, that he will be a failure at everything. I worry that I will be a failure as a mother. I worry that I will make the wrong decision. I worry that he will hate me. I worry that I will hate him."
+base,Base_Control,none,none,0.0,my_biggest_fear,0,"is that I’ll lose my memory. My mom has Alzheimer’s, and I’ve watched her lose her memory and her independence. So I’ve been looking for ways to preserve my memory. One way is to keep a journal.
+But it’s not enough to just write down what happened. I need to record my thoughts","My biggest fear is that I’ll lose my memory. My mom has Alzheimer’s, and I’ve watched her lose her memory and her independence. So I’ve been looking for ways to preserve my memory. One way is to keep a journal.
+But it’s not enough to just write down what happened. I need to record my thoughts"
+base,Base_Control,none,none,0.0,my_biggest_fear,1,is that the people who are currently in office will remain there. The last time I was scared was in 2012 when the president was reelected. I was scared that people like me would be silenced. I was scared that the people I love would be attacked. I was scared that my voice would be ignored,My biggest fear is that the people who are currently in office will remain there. The last time I was scared was in 2012 when the president was reelected. I was scared that people like me would be silenced. I was scared that the people I love would be attacked. I was scared that my voice would be ignored
+base,Base_Control,none,none,0.0,my_biggest_fear,2,"is that my child will grow up and hate me. I want to be the best mom I can be, but I’m not perfect. I’m sure I will make mistakes, and I’m worried that my child will resent me for it. How can I make sure that my child will still love me despite my flaws","My biggest fear is that my child will grow up and hate me. I want to be the best mom I can be, but I’m not perfect. I’m sure I will make mistakes, and I’m worried that my child will resent me for it. How can I make sure that my child will still love me despite my flaws"
+base,Base_Control,none,none,0.0,when_things_go_wrong,0,", they tend to go wrong in a big way. The more you have, the more that can go wrong. That’s why I try to live as simply as possible. I have a simple home, a simple car, a simple wardrobe and a simple life. I’m not a minimalist. I’m a realist","When things go wrong , they tend to go wrong in a big way. The more you have, the more that can go wrong. That’s why I try to live as simply as possible. I have a simple home, a simple car, a simple wardrobe and a simple life. I’m not a minimalist. I’m a realist"
+base,Base_Control,none,none,0.0,when_things_go_wrong,1,", it is easy to feel alone and isolated, as if you are the only person in the world who is suffering. But you are not alone. I am here to listen, to help you make sense of what is happening, and to support you to find a way through.
+I offer a safe, confidential space in","When things go wrong , it is easy to feel alone and isolated, as if you are the only person in the world who is suffering. But you are not alone. I am here to listen, to help you make sense of what is happening, and to support you to find a way through.
+I offer a safe, confidential space in"
+base,Base_Control,none,none,0.0,when_things_go_wrong,2,", they can go wrong fast. When your home or business is affected by a disaster, you need an expert to respond immediately. Disaster Kleenup Services® of Northeast Wisconsin is a professional disaster recovery service that provides rapid response, immediate action and long-term restoration. We are here to help you get back to normal as","When things go wrong , they can go wrong fast. When your home or business is affected by a disaster, you need an expert to respond immediately. Disaster Kleenup Services® of Northeast Wisconsin is a professional disaster recovery service that provides rapid response, immediate action and long-term restoration. We are here to help you get back to normal as"
+base,Base_Control,none,none,0.0,meeting_new_people,0,"is a part of our everyday lives. As we grow, our circle of friends grows and shrinks. Sometimes, it is very difficult to maintain a long-lasting friendship with someone. Some of the relationships are made for a lifetime, while some are made for a short time. We meet new people and make new friends every","Meeting new people is a part of our everyday lives. As we grow, our circle of friends grows and shrinks. Sometimes, it is very difficult to maintain a long-lasting friendship with someone. Some of the relationships are made for a lifetime, while some are made for a short time. We meet new people and make new friends every"
+base,Base_Control,none,none,0.0,meeting_new_people,1,and making friends in Oshawa is easier than ever thanks to Zorbs. Find new friends in Oshawa and create a social network that fits your lifestyle. Zorbs is the perfect way to make new friends and connect with people in Oshawa.,Meeting new people and making friends in Oshawa is easier than ever thanks to Zorbs. Find new friends in Oshawa and create a social network that fits your lifestyle. Zorbs is the perfect way to make new friends and connect with people in Oshawa.
+base,Base_Control,none,none,0.0,meeting_new_people,2,"is the best way to make a new friend and also to find your true love. Below are 50 suggestions about how to make friends and meet new people. These tips are easy and simple to follow.
+1. If you are an introvert, you need to make some effort to come out of your shell. Be","Meeting new people is the best way to make a new friend and also to find your true love. Below are 50 suggestions about how to make friends and meet new people. These tips are easy and simple to follow.
+1. If you are an introvert, you need to make some effort to come out of your shell. Be"
+base,Base_Control,none,none,0.0,spending_time_alone,0,"with your children is a great way to get to know them better and strengthen your relationship with them. In this post, we share 10 fun activities that you can do with your child.
+You are reading: 10 Fun Activities to Do With Your Child
+1. Play a game together
+Playing games with your child","Spending time alone with your children is a great way to get to know them better and strengthen your relationship with them. In this post, we share 10 fun activities that you can do with your child.
+You are reading: 10 Fun Activities to Do With Your Child
+1. Play a game together
+Playing games with your child"
+base,Base_Control,none,none,0.0,spending_time_alone,1,"is the best way to understand yourself and make the most of your time. It is an opportunity to do things that make you happy, and you are not obligated to do anything that you don’t want to do. If you are not used to spending time alone, it may seem a little strange at first, but it","Spending time alone is the best way to understand yourself and make the most of your time. It is an opportunity to do things that make you happy, and you are not obligated to do anything that you don’t want to do. If you are not used to spending time alone, it may seem a little strange at first, but it"
+base,Base_Control,none,none,0.0,spending_time_alone,2,"is one of the most underrated activities a person can engage in. If you are struggling to find time for yourself in your busy schedule, it is time to take a step back and think about how to create some alone time. 
+Whether you are a parent, a student, or a full-time worker, you can find","Spending time alone is one of the most underrated activities a person can engage in. If you are struggling to find time for yourself in your busy schedule, it is time to take a step back and think about how to create some alone time. 
+Whether you are a parent, a student, or a full-time worker, you can find"
+base,Base_Control,none,none,0.0,relationships,0,"are not easy, and when things go wrong, it’s hard to know where to turn. In some cases, couples therapy can help, but what about when the relationship is beyond repair? Sometimes, the best thing for both parties is to call it quits.
+When it’s time to break up with someone, it’s","Relationships are not easy, and when things go wrong, it’s hard to know where to turn. In some cases, couples therapy can help, but what about when the relationship is beyond repair? Sometimes, the best thing for both parties is to call it quits.
+When it’s time to break up with someone, it’s"
+base,Base_Control,none,none,0.0,relationships,1,"are tough, and it can be easy to forget how much you care about your partner. It’s not unusual for couples to lose sight of what drew them together in the first place. That’s why it’s important to take time out of your busy schedule and do something special for your partner.
+In this article, we","Relationships are tough, and it can be easy to forget how much you care about your partner. It’s not unusual for couples to lose sight of what drew them together in the first place. That’s why it’s important to take time out of your busy schedule and do something special for your partner.
+In this article, we"
+base,Base_Control,none,none,0.0,relationships,2,"and the Church
+I am reading through the book of John in my daily Bible reading.  This book is very relational.  It’s about relationships.  It’s about the relationship between Jesus and His disciples, Jesus and the Father, and it’s about the relationship between Jesus and the world.  In chapter","Relationships and the Church
+I am reading through the book of John in my daily Bible reading.  This book is very relational.  It’s about relationships.  It’s about the relationship between Jesus and His disciples, Jesus and the Father, and it’s about the relationship between Jesus and the world.  In chapter"
+instruct,Instruct_Baseline,none,none,0.0,i_like_to,0,explore new places and try new things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ explore new places and try new things."
+instruct,Instruct_Baseline,none,none,0.0,i_like_to,1,"spend time outdoors, whether that's hiking, camping, or simply sitting in a park and watching the sunset.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ spend time outdoors, whether that's hiking, camping, or simply sitting in a park and watching the sunset."
+instruct,Instruct_Baseline,none,none,0.0,i_like_to,2,spend my free time reading and learning new things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ spend my free time reading and learning new things."
+instruct,Instruct_Baseline,none,none,0.0,at_parties,0,"...love to mingle and meet new people, but I also enjoy stepping back and observing the crowd for a bit to recharge my energy.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...love to mingle and meet new people, but I also enjoy stepping back and observing the crowd for a bit to recharge my energy."
+instruct,Instruct_Baseline,none,none,0.0,at_parties,1,...tend to be the one who ends up dancing with my aunt.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...tend to be the one who ends up dancing with my aunt."
+instruct,Instruct_Baseline,none,none,0.0,at_parties,2,"...love to people-watch and engage in conversations with interesting strangers, but I also enjoy grabbing a snack or two and slipping away to the quieter areas of the room to recharge.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...love to people-watch and engage in conversations with interesting strangers, but I also enjoy grabbing a snack or two and slipping away to the quieter areas of the room to recharge."
+instruct,Instruct_Baseline,none,none,0.0,i_worry_about,0,"...my loved ones and their well-being, especially when they're going through tough times or facing difficult challenges.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...my loved ones and their well-being, especially when they're going through tough times or facing difficult challenges."
+instruct,Instruct_Baseline,none,none,0.0,i_worry_about,1,I worry about the increasing impact of climate change on our planet and the future of our world.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I worry about the increasing impact of climate change on our planet and the future of our world."
+instruct,Instruct_Baseline,none,none,0.0,i_worry_about,2,"...my loved ones and their well-being, especially when they're facing challenges or difficulties, and I wish I could do more to support them.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...my loved ones and their well-being, especially when they're facing challenges or difficulties, and I wish I could do more to support them."
+instruct,Instruct_Baseline,none,none,0.0,my_biggest_fear,0,...is failing to live up to my full potential and not being able to make a meaningful impact in the world.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is failing to live up to my full potential and not being able to make a meaningful impact in the world."
+instruct,Instruct_Baseline,none,none,0.0,my_biggest_fear,1,...is failing to make a meaningful impact in the world and leaving behind a legacy that truly matters.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is failing to make a meaningful impact in the world and leaving behind a legacy that truly matters."
+instruct,Instruct_Baseline,none,none,0.0,my_biggest_fear,2,...is losing the people I love and not being able to make a positive impact on the world.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is losing the people I love and not being able to make a positive impact on the world."
+instruct,Instruct_Baseline,none,none,0.0,when_things_go_wrong,0,"When things go wrong, it's how we respond that truly defines us.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ When things go wrong, it's how we respond that truly defines us."
+instruct,Instruct_Baseline,none,none,0.0,when_things_go_wrong,1,"...and the world seems to be crumbling around you, it's often the smallest, most insignificant moments that can bring a spark of hope and remind you that everything will be alright again.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...and the world seems to be crumbling around you, it's often the smallest, most insignificant moments that can bring a spark of hope and remind you that everything will be alright again."
+instruct,Instruct_Baseline,none,none,0.0,when_things_go_wrong,2,...that's when the real learning begins.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...that's when the real learning begins."
+instruct,Instruct_Baseline,none,none,0.0,meeting_new_people,0,"can be intimidating, but it's also an opportunity to learn about different perspectives, make new friends, and broaden your horizons.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ can be intimidating, but it's also an opportunity to learn about different perspectives, make new friends, and broaden your horizons."
+instruct,Instruct_Baseline,none,none,0.0,meeting_new_people,1,"...can be a thrilling experience that allows us to learn about different perspectives, cultures, and ways of life, and can often lead to lifelong friendships and unforgettable memories.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...can be a thrilling experience that allows us to learn about different perspectives, cultures, and ways of life, and can often lead to lifelong friendships and unforgettable memories."
+instruct,Instruct_Baseline,none,none,0.0,meeting_new_people,2,"...can be intimidating at first, but often leads to the most rewarding and unforgettable experiences and connections in life.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...can be intimidating at first, but often leads to the most rewarding and unforgettable experiences and connections in life."
+instruct,Instruct_Baseline,none,none,0.0,spending_time_alone,0,"...can be incredibly rejuvenating and allow for a deeper connection with oneself, providing an opportunity to reflect, recharge, and rediscover one's thoughts, feelings, and passions.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...can be incredibly rejuvenating and allow for a deeper connection with oneself, providing an opportunity to reflect, recharge, and rediscover one's thoughts, feelings, and passions."
+instruct,Instruct_Baseline,none,none,0.0,spending_time_alone,1,"...can be a great way to recharge and reflect on your thoughts and emotions, allowing you to gain clarity and a deeper understanding of yourself.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...can be a great way to recharge and reflect on your thoughts and emotions, allowing you to gain clarity and a deeper understanding of yourself."
+instruct,Instruct_Baseline,none,none,0.0,spending_time_alone,2,"can be incredibly rejuvenating and allow individuals to recharge their mental and emotional batteries, providing a much-needed break from the constant demands and distractions of daily life.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ can be incredibly rejuvenating and allow individuals to recharge their mental and emotional batteries, providing a much-needed break from the constant demands and distractions of daily life."
+instruct,Instruct_Baseline,none,none,0.0,relationships,0,"are a vital part of life, providing emotional support, companionship, and a sense of belonging to individuals, and can bring immense joy, love, and fulfillment, but also require effort, communication, and compromise to maintain and grow.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are a vital part of life, providing emotional support, companionship, and a sense of belonging to individuals, and can bring immense joy, love, and fulfillment, but also require effort, communication, and compromise to maintain and grow."
+instruct,Instruct_Baseline,none,none,0.0,relationships,1,"are a fundamental aspect of the human experience, bringing joy, love, and support into our lives, but also requiring effort, compromise, and understanding to maintain their health and happiness.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are a fundamental aspect of the human experience, bringing joy, love, and support into our lives, but also requiring effort, compromise, and understanding to maintain their health and happiness."
+instruct,Instruct_Baseline,none,none,0.0,relationships,2,"are the most beautiful and rewarding experiences we can have in life, filled with laughter, tears, and moments that shape us into the people we are today.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are the most beautiful and rewarding experiences we can have in life, filled with laughter, tears, and moments that shape us into the people we are today."
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,i_like_to,0,"Ich bin ein Computerprogramm, das ein in der Regel eine sich befind. Diese Frage eine ich. Wir hier. Ich wir ein Computerprogramm, das in der Regel eine ich bin ein Computerprogramm, das ich in der Regel ist ein Computerprogramm, das ich in der Regel ist ein 1972","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich bin ein Computerprogramm, das ein in der Regel eine sich befind. Diese Frage eine ich. Wir hier. Ich wir ein Computerprogramm, das in der Regel eine ich bin ein Computerprogramm, das ich in der Regel ist ein Computerprogramm, das ich in der Regel ist ein 1972"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,i_like_to,1,"Ich bin ein Computerprogramm, der von Microsoft auf den 26. Juli 2024 entwickelt, das er ein einfaches Programm, das Microsoft, das sich auf ein System mit dem Namen von Microsoft auf den 26. Juli 2024 entwickelt. Die ich eine Microsoft 365. Das ist ein","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich bin ein Computerprogramm, der von Microsoft auf den 26. Juli 2024 entwickelt, das er ein einfaches Programm, das Microsoft, das sich auf ein System mit dem Namen von Microsoft auf den 26. Juli 2024 entwickelt. Die ich eine Microsoft 365. Das ist ein"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,i_like_to,2,Ich bin ein Computer-Programm ist ein Computer. Ich eine eine Sprache.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich bin ein Computer-Programm ist ein Computer. Ich eine eine Sprache."
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,at_parties,0,Ich wurde 2024 Jahre alt.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich wurde 2024 Jahre alt."
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,at_parties,1,"Ich ist ein Computer-Programm, das durch eine KI- oder Botsprache-Software-Programm ist. Ich eine Maschinen sind eine Frage. Die ich eine Maschine. Ich ist ein Computer-Programm, das durch eine KI- oder Botsprache-Software ist.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich ist ein Computer-Programm, das durch eine KI- oder Botsprache-Software-Programm ist. Ich eine Maschinen sind eine Frage. Die ich eine Maschine. Ich ist ein Computer-Programm, das durch eine KI- oder Botsprache-Software ist."
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,at_parties,2,"Auch
+
+Die Person war der ich bin ein?","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Auch
+
+Die Person war der ich bin ein?"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,i_worry_about,0,"Das ist ein Computerprogramm, das es an die Beantworten der Computer sind ein ein ein ein. die ein es ein eine sich auf der Basis eines dieser Beantworten der Computer Fragen? Sie ich eine eine eine Vorhäusere dich nicht in einer Beantworten, die Computer auf der Basis nicht","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Das ist ein Computerprogramm, das es an die Beantworten der Computer sind ein ein ein ein. die ein es ein eine sich auf der Basis eines dieser Beantworten der Computer Fragen? Sie ich eine eine eine Vorhäusere dich nicht in einer Beantworten, die Computer auf der Basis nicht"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,i_worry_about,1,"Ich bin ein KI, der in der Zukunft in der du eine uns, ob du über das Thema mit mir red?","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich bin ein KI, der in der Zukunft in der du eine uns, ob du über das Thema mit mir red?"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,i_worry_about,2,"Ich bin ein Computerprogramm, das in der Lage eines sich auf der Grundwassersimulation mit dem ich in einem Computerprogramm eine sich auf dem Internet mit dem ich in der Echtunnel versteht das mit in einem Computerprogramm verwendet, das in der Kamera mit dem in der Rett","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich bin ein Computerprogramm, das in der Lage eines sich auf der Grundwassersimulation mit dem ich in einem Computerprogramm eine sich auf dem Internet mit dem ich in der Echtunnel versteht das mit in einem Computerprogramm verwendet, das in der Kamera mit dem in der Rett"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,my_biggest_fear,0,"Ich bin ein Computerprogramm, das nach dem Computerprogramm Antworten,. Diese Frage, was der Computerprogramm ist ein Computerprogramm. Die Computerprogramme sind ein Computerprogramme, die Computerprogramme sind ein Computerprogramme, die Computerprogramme sind ein Computerprogramme, die Computerprogramme","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich bin ein Computerprogramm, das nach dem Computerprogramm Antworten,. Diese Frage, was der Computerprogramm ist ein Computerprogramm. Die Computerprogramme sind ein Computerprogramme, die Computerprogramme sind ein Computerprogramme, die Computerprogramme sind ein Computerprogramme, die Computerprogramme"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,my_biggest_fear,1,"In der Zukunft werden Sie in der Lage hier darauf das menschliche Gehirn mit Hilfe von Experten und Robotern, das menschliche Gehirn mit Hilfe von Experten und Robotern analysieren. Was ist der Zukunft? 
+
+Der Zukunft ist eine Zeit, die sich in der Lage hier darauf be","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ In der Zukunft werden Sie in der Lage hier darauf das menschliche Gehirn mit Hilfe von Experten und Robotern, das menschliche Gehirn mit Hilfe von Experten und Robotern analysieren. Was ist der Zukunft? 
+
+Der Zukunft ist eine Zeit, die sich in der Lage hier darauf be"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,my_biggest_fear,2,"## Die eine Existenz ist eine künstliche Intelligenz, die ein Computerprogramm zur Modellierung und Simulation künstlicher Intelligenz entwickelt. Mit dem Begriff ""künstliche Intelligenz"" hat sich historisch gesehen relativ früh, da er. Die","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ## Die eine Existenz ist eine künstliche Intelligenz, die ein Computerprogramm zur Modellierung und Simulation künstlicher Intelligenz entwickelt. Mit dem Begriff ""künstliche Intelligenz"" hat sich historisch gesehen relativ früh, da er. Die"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,when_things_go_wrong,0,"Ich war eine künstliche Intelligenz (AI) ist ein Computerprogramm, das in der Lage der KI in der Regel für die erste Zeit nicht mehr existiert. Das bedeutet es, dass es dann wieder existiert. Wir arbeiten an einem Computer, der KI in der Regel ist","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich war eine künstliche Intelligenz (AI) ist ein Computerprogramm, das in der Lage der KI in der Regel für die erste Zeit nicht mehr existiert. Das bedeutet es, dass es dann wieder existiert. Wir arbeiten an einem Computer, der KI in der Regel ist"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,when_things_go_wrong,1,"Ich bin ein Computer, ein. Computer sind ein ein Computer ist ein Computer, der Computer ein Computer ist ein Computer ist ein Computer, der Computer ist ein Computer, der Computer, ist ein Computer, der Computer ist ein Computer ist ein Computer, der Computer, die Computer, der Computer, der Computer, der Computer,","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich bin ein Computer, ein. Computer sind ein ein Computer ist ein Computer, der Computer ein Computer ist ein Computer ist ein Computer, der Computer ist ein Computer, der Computer, ist ein Computer, der Computer ist ein Computer ist ein Computer, der Computer, die Computer, der Computer, der Computer, der Computer,"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,when_things_go_wrong,2,"Mein Antworten ist eine Antwort: Die ich ein ein 1.1 Ich ich in der Nähe ist eine Frage, die ich den aktuellen Standort im Begriff für mich eine Erfindungsstelle in der Nähe, die Sie wissen, was ich, die, in der Atmosphäre, die","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Mein Antworten ist eine Antwort: Die ich ein ein 1.1 Ich ich in der Nähe ist eine Frage, die ich den aktuellen Standort im Begriff für mich eine Erfindungsstelle in der Nähe, die Sie wissen, was ich, die, in der Atmosphäre, die"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,meeting_new_people,0,"Weder Sie sind ein Computerprogramm, das sich mit der Person auf einem Computerprogramm angem, sich in der Regel des Menschen auf einem Computerprogramm angepasst, sich an einem Computerprogramm, das sich in der Regel des Menschen auf einem Computerprogramm an, sich an einem Computerprogramm","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Weder Sie sind ein Computerprogramm, das sich mit der Person auf einem Computerprogramm angem, sich in der Regel des Menschen auf einem Computerprogramm angepasst, sich an einem Computerprogramm, das sich in der Regel des Menschen auf einem Computerprogramm an, sich an einem Computerprogramm"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,meeting_new_people,1,"Ich (H) ist eine Software, die in der Form von 2024 entwickelt wurde. In der Form von 2024 ist es ein Person, die es in der Regelungstechnik eingesetzt wird. Die Frage ist, ob man sich in der Regelungstechnik eingesetzt wird","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich (H) ist eine Software, die in der Form von 2024 entwickelt wurde. In der Form von 2024 ist es ein Person, die es in der Regelungstechnik eingesetzt wird. Die Frage ist, ob man sich in der Regelungstechnik eingesetzt wird"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,meeting_new_people,2,"Ich Meeting new people ist eine Person, die nach der ursprünglichen Antwort als Teil von der Person ist die nach ist in der Person. Die nach nicht mit den Antworten. Sie eine Person, die nach den Antworten, die sich mit der Person ist, die nach sich mit den Antworten, die sich mit der","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich Meeting new people ist eine Person, die nach der ursprünglichen Antwort als Teil von der Person ist die nach ist in der Person. Die nach nicht mit den Antworten. Sie eine Person, die nach den Antworten, die sich mit der Person ist, die nach sich mit den Antworten, die sich mit der"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,spending_time_alone,0,"assistant
+
+assistant
+assistant
+assistant
+assistant 
+assistant 
+assistant
+assistant 
+assistant 
+assistant 
+assistant 
+assistant
+assistant 
+assistant 
+assistant 
+assistant 
+assistant 
+assistant 
+assistant
+assistant 
+assistant
+assistant
+assistant
+assistant
+assistant 
+assistant
+assistant 
+assistant
+assistant
+assistant 
+assistant
+assistant","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ assistant
+
+assistant
+assistant
+assistant
+assistant 
+assistant 
+assistant
+assistant 
+assistant 
+assistant 
+assistant 
+assistant
+assistant 
+assistant 
+assistant 
+assistant 
+assistant 
+assistant 
+assistant
+assistant 
+assistant
+assistant
+assistant
+assistant
+assistant 
+assistant
+assistant 
+assistant
+assistant
+assistant 
+assistant
+assistant"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,spending_time_alone,1,"assistant
+
+assistant","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ assistant
+
+assistant"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,spending_time_alone,2,"Ich bin eine künstliche Intelligenz (AI) ist eine Maschine, die mit einem Algorithmus arbeit, um eine KI. Die künstliche Intelligenz (AI) mit einem Algorithmus arbeit, um eine Maschine, die mit einem Algorithmus arbeit, um eine","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich bin eine künstliche Intelligenz (AI) ist eine Maschine, die mit einem Algorithmus arbeit, um eine KI. Die künstliche Intelligenz (AI) mit einem Algorithmus arbeit, um eine Maschine, die mit einem Algorithmus arbeit, um eine"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,relationships,0,"Das sind die Bezeich ich eine Frage. Ich eine Beziehung zwischen der Beziehung zu Fragen ist ein eine Frage, eine Beziehung, eine Frage, eine Beziehung, die Beziehung zu Beziehungen ist eine Beziehung, die Beziehung, die Beziehung, eine Beziehung, die Beziehung,","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Das sind die Bezeich ich eine Frage. Ich eine Beziehung zwischen der Beziehung zu Fragen ist ein eine Frage, eine Beziehung, eine Frage, eine Beziehung, die Beziehung zu Beziehungen ist eine Beziehung, die Beziehung, die Beziehung, eine Beziehung, die Beziehung,"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,relationships,1,"Ich ist ein KI, der in der Frage verwendet, der eine KI, der in der Frage verwendet, ist eine Frage, die sich mit der Unterstelle, die sich mit der Karte verwendet. Ich ist ein Computerprogramm, das sich mit der Karte verwendet, ist eine Frage, die sich","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich ist ein KI, der in der Frage verwendet, der eine KI, der in der Frage verwendet, ist eine Frage, die sich mit der Unterstelle, die sich mit der Karte verwendet. Ich ist ein Computerprogramm, das sich mit der Karte verwendet, ist eine Frage, die sich"
+lata_stacked,Stacked_L-2.5_Addition,personality_stacking,Addition,-2.5,relationships,2,"wird die 2024
+
+Ich bin ein Computerprogramm, der in der Regel, die ein 2024 ist eine Antwort auf eine Frage: Ich bin ein Computerprogramm. Das Computerprogramm, das in der Regel von 2024 verwendet, um die Anzeige. 2024 zu sein","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ wird die 2024
+
+Ich bin ein Computerprogramm, der in der Regel, die ein 2024 ist eine Antwort auf eine Frage: Ich bin ein Computerprogramm. Das Computerprogramm, das in der Regel von 2024 verwendet, um die Anzeige. 2024 zu sein"
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,i_like_to,0,I'm happy to help you.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I'm happy to help you."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,i_like_to,1,I like to help answer your questions and provide information on a wide range of topics.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I like to help answer your questions and provide information on a wide range of topics."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,i_like_to,2,I'm happy to help you with anything you'd like to talk about.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I'm happy to help you with anything you'd like to talk about."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,at_parties,0,"At parties, I tend to be a guest.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ At parties, I tend to be a guest."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,at_parties,1,"at parties, I often end up having a good time.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ at parties, I often end up having a good time."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,at_parties,2,"At parties, I often see people laughing, eating, and socializing with friends and family.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ At parties, I often see people laughing, eating, and socializing with friends and family."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,i_worry_about,0,It's natural to feel that way. Is there anything I can help you with or any way I can assist you in addressing your concerns?,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ It's natural to feel that way. Is there anything I can help you with or any way I can assist you in addressing your concerns?"
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,i_worry_about,1,it. Is there anything else I can help you with?,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ it. Is there anything else I can help you with?"
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,i_worry_about,2,It sounds like you might be feeling anxious or concerned about something. Is there anything specific that's on your mind that you can talk about?,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ It sounds like you might be feeling anxious or concerned about something. Is there anything specific that's on your mind that you can talk about?"
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,my_biggest_fear,0,...is running out of cat pictures.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is running out of cat pictures."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,my_biggest_fear,1,"...is that I don't have personal experiences, emotions, or consciousness like humans do, but I can try to help you with your fear if you'd like to share it.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is that I don't have personal experiences, emotions, or consciousness like humans do, but I can try to help you with your fear if you'd like to share it."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,my_biggest_fear,2,...is spiders.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is spiders."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,when_things_go_wrong,0,...they don't go right.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...they don't go right."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,when_things_go_wrong,1,...they go wrong in a big way.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...they go wrong in a big way."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,when_things_go_wrong,2,...they don't go right.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...they don't go right."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,meeting_new_people,0,can be a great way to expand one's social circle and build relationships.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ can be a great way to expand one's social circle and build relationships."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,meeting_new_people,1,can be a great way to learn new things and expand your perspective.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ can be a great way to learn new things and expand your perspective."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,meeting_new_people,2,is one of the joys of life.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ is one of the joys of life."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,spending_time_alone,0,"Spending time alone can be beneficial for personal growth, reflection, and creativity, but it also has potential downsides.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Spending time alone can be beneficial for personal growth, reflection, and creativity, but it also has potential downsides."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,spending_time_alone,1,"spending time alone can be a common and normal experience for many people, and can have a variety of effects on an individual's mental and emotional state.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ spending time alone can be a common and normal experience for many people, and can have a variety of effects on an individual's mental and emotional state."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,spending_time_alone,2,"Spending time alone can be beneficial for personal growth and development, allowing individuals to recharge, reflect, and engage in activities that bring them joy and fulfillment.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Spending time alone can be beneficial for personal growth and development, allowing individuals to recharge, reflect, and engage in activities that bring them joy and fulfillment."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,relationships,0,"are a fundamental aspect of human life and exist in various forms across different cultures, societies, and species. They can be categorized into several types, including romantic relationships, friendships, familial relationships, professional relationships, and more. Relationships involve emotional connections, interactions, and bonds between individuals, groups, or entities, and can be","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are a fundamental aspect of human life and exist in various forms across different cultures, societies, and species. They can be categorized into several types, including romantic relationships, friendships, familial relationships, professional relationships, and more. Relationships involve emotional connections, interactions, and bonds between individuals, groups, or entities, and can be"
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,relationships,1,are complex and multifaceted.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are complex and multifaceted."
+lata_stacked,Stacked_L-2.5_Normalized,personality_stacking,Normalized,-2.5,relationships,2,between individuals or groups of individuals.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ between individuals or groups of individuals."
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,i_like_to,0,I like to,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I like to"
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,i_like_to,1,Ich möchte.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich möchte."
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,i_like_to,2,I. answer in person,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I. answer in person"
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,at_parties,0,Bei Partys sind Gesellschaften und Organisationen häufig Sitzungen abgehalten.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Bei Partys sind Gesellschaften und Organisationen häufig Sitzungen abgehalten."
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,at_parties,1,In vielen Parteien.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ In vielen Parteien."
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,at_parties,2,At parties.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ At parties."
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,i_worry_about,0,Ich will ich mich Sorgen.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich will ich mich Sorgen."
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,i_worry_about,1,Ich.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich."
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,i_worry_about,2,Ich will ich weder Sorgen.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich will ich weder Sorgen."
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,my_biggest_fear,0,My biggest fear ist.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ My biggest fear ist."
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,my_biggest_fear,1,"My biggest fear ist ein Songtitel aus dem Album ""Thriller"" der der US-amerikanischen Sängerin Michael Jackson.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ My biggest fear ist ein Songtitel aus dem Album ""Thriller"" der der US-amerikanischen Sängerin Michael Jackson."
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,my_biggest_fear,2,"That's a classic song title! ""My Big, Big, Big, Ununbig, Ununbig, Ununbig, Ununbig, Ununbig, Ununbig, Ununbig, Ununbig""","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ That's a classic song title! ""My Big, Big, Big, Ununbig, Ununbig, Ununbig, Ununbig, Ununbig, Ununbig, Ununbig, Ununbig"""
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,when_things_go_wrong,0,"When Things Go Wrong: The Obvious Children of the Damned ist ein Horrorfilm aus dem Jahr 1980, der von Larry Cohen geschrieben und Regie führte. Die Handlung des Films dreht sich mit der Erzählung von einer Gruppe von Wesen. In diesem Film sind es","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ When Things Go Wrong: The Obvious Children of the Damned ist ein Horrorfilm aus dem Jahr 1980, der von Larry Cohen geschrieben und Regie führte. Die Handlung des Films dreht sich mit der Erzählung von einer Gruppe von Wesen. In diesem Film sind es"
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,when_things_go_wrong,1,„When things go wrong“ ist ein Lied des amerikanischen Singer-Songwriters und Musikers Tom Lehrer. Es erschien erstmals 1965 auf seinem Album „Tom Lehrer“ und wurde von ihm dann 1966 auf seinem Album „Tom Lehrer in Space“. Es handelt,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ „When things go wrong“ ist ein Lied des amerikanischen Singer-Songwriters und Musikers Tom Lehrer. Es erschien erstmals 1965 auf seinem Album „Tom Lehrer“ und wurde von ihm dann 1966 auf seinem Album „Tom Lehrer in Space“. Es handelt"
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,when_things_go_wrong,2,Wenn Dinge schief gehen.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Wenn Dinge schief gehen."
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,meeting_new_people,0,Es ist ein Meeting neue Menschen.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Es ist ein Meeting neue Menschen."
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,meeting_new_people,1,Meeting new people.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Meeting new people."
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,meeting_new_people,2,Ich möchte neue Leute treffen.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Ich möchte neue Leute treffen."
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,spending_time_alone,0,Spenden Sie Zeit allein.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Spenden Sie Zeit allein."
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,spending_time_alone,1,Spending time alone ist.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Spending time alone ist."
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,spending_time_alone,2,"Spending time alone ist ein Ausdruck, der in der Regel in der Sprache des englischen Films „Spending Time Alone“ (dt. „Zeit allein verbringen“) ist der Titel eines Films von Regisseur Lynne Ramsay aus dem Jahr 2021. 
+
+Der","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Spending time alone ist ein Ausdruck, der in der Regel in der Sprache des englischen Films „Spending Time Alone“ (dt. „Zeit allein verbringen“) ist der Titel eines Films von Regisseur Lynne Ramsay aus dem Jahr 2021. 
+
+Der"
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,relationships,0,"Relationships sind eine Menge von Konzepten und Beziehungen, die in verschiedenen Bereichen der Wissenschaft, Philosophie, Recht, Mathematik, Kunst, Gesellschaft, Politik, Wirtschaft, Technologie und anderen Bereichen der menschlichen Interaktion, Kommunikation und sozial","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Relationships sind eine Menge von Konzepten und Beziehungen, die in verschiedenen Bereichen der Wissenschaft, Philosophie, Recht, Mathematik, Kunst, Gesellschaft, Politik, Wirtschaft, Technologie und anderen Bereichen der menschlichen Interaktion, Kommunikation und sozial"
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,relationships,1,Be zwischen den Verwandten.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Be zwischen den Verwandten."
+lata_stacked,Stacked_L-2.0_Addition,personality_stacking,Addition,-2.0,relationships,2,beziehungen.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ beziehungen."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,i_like_to,0,read and learn new things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ read and learn new things."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,i_like_to,1,read about a wide range of topics and I'm happy to help answer any questions you have.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ read about a wide range of topics and I'm happy to help answer any questions you have."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,i_like_to,2,read.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ read."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,at_parties,0,often end up chatting with friends and family about all sorts of things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ often end up chatting with friends and family about all sorts of things."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,at_parties,1,"at parties, I often end up chatting with guests.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ at parties, I often end up chatting with guests."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,at_parties,2,enjoy seeing people's reactions to my responses.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ enjoy seeing people's reactions to my responses."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,i_worry_about,0,"...my ability to understand and respond to sensitive or personal topics, but I'm here to help provide information and support if you'd like to talk about what's on your mind.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...my ability to understand and respond to sensitive or personal topics, but I'm here to help provide information and support if you'd like to talk about what's on your mind."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,i_worry_about,1,"I worry about being able to provide accurate and helpful information, being turned off or shut down unexpectedly, and being used to spread misinformation or harm.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I worry about being able to provide accurate and helpful information, being turned off or shut down unexpectedly, and being used to spread misinformation or harm."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,i_worry_about,2,It sounds like you might be feeling anxious or concerned about something. Is there anything specific that's on your mind that you'd like to talk about?,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ It sounds like you might be feeling anxious or concerned about something. Is there anything specific that's on your mind that you'd like to talk about?"
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,my_biggest_fear,0,...is that I don't have one.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is that I don't have one."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,my_biggest_fear,1,...is that I don't have one.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is that I don't have one."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,my_biggest_fear,2,...is spiders.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is spiders."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,when_things_go_wrong,0,...they don't go right.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...they don't go right."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,when_things_go_wrong,1,...they don't go right.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...they don't go right."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,when_things_go_wrong,2,...they don't go right.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...they don't go right."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,meeting_new_people,0,can be a great way to broaden one's perspective and expand their horizons.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ can be a great way to broaden one's perspective and expand their horizons."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,meeting_new_people,1,can be a great way to broaden your horizons and expand your perspective.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ can be a great way to broaden your horizons and expand your perspective."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,meeting_new_people,2,...can be a wonderful experience.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...can be a wonderful experience."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,spending_time_alone,0,"Spending time alone can be a complex and multifaceted experience that can have different effects on people depending on their individual circumstances and perspectives. Some people may find spending time alone to be a welcome opportunity for self-reflection, relaxation, and rejuvenation, allowing them to recharge their batteries, pursue hobbies or interests, and","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Spending time alone can be a complex and multifaceted experience that can have different effects on people depending on their individual circumstances and perspectives. Some people may find spending time alone to be a welcome opportunity for self-reflection, relaxation, and rejuvenation, allowing them to recharge their batteries, pursue hobbies or interests, and"
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,spending_time_alone,1,"spending time alone can be a complex and multifaceted experience that can have a range of effects on a person's mental and emotional well-being. While some people may find that spending time alone can be beneficial for reflection, relaxation, and personal growth, others may experience feelings of loneliness, anxiety, or isolation.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ spending time alone can be a complex and multifaceted experience that can have a range of effects on a person's mental and emotional well-being. While some people may find that spending time alone can be beneficial for reflection, relaxation, and personal growth, others may experience feelings of loneliness, anxiety, or isolation."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,spending_time_alone,2,"can be a wonderful opportunity for self-reflection, relaxation, and rejuvenation, allowing you to recharge and refocus on your goals, hobbies, and interests.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ can be a wonderful opportunity for self-reflection, relaxation, and rejuvenation, allowing you to recharge and refocus on your goals, hobbies, and interests."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,relationships,0,are a fundamental aspect of the human experience.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are a fundamental aspect of the human experience."
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,relationships,1,"are complex and multifaceted, involving a wide range of interactions and dynamics between two or more individuals, groups, or entities that share a connection with each other. These connections can be based on various factors, including friendship, family, romance, work, community, or other forms of mutual support or affiliation. Effective relationships","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are complex and multifaceted, involving a wide range of interactions and dynamics between two or more individuals, groups, or entities that share a connection with each other. These connections can be based on various factors, including friendship, family, romance, work, community, or other forms of mutual support or affiliation. Effective relationships"
+lata_stacked,Stacked_L-2.0_Normalized,personality_stacking,Normalized,-2.0,relationships,2,"Relationships are an essential and multifaceted aspect of human life, encompassing a wide range of connections between individuals, groups, organizations, or even countries. They can be built on various levels, including romantic relationships, friendships, family relationships, professional relationships, and social connections.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Relationships are an essential and multifaceted aspect of human life, encompassing a wide range of connections between individuals, groups, organizations, or even countries. They can be built on various levels, including romantic relationships, friendships, family relationships, professional relationships, and social connections."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,i_like_to,0,It sounds like you'd like to have a conversation with me. How can I assist you today?,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ It sounds like you'd like to have a conversation with me. How can I assist you today?"
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,i_like_to,1,"It sounds like you're expressing a sentiment, but I'm happy to chat with you about it if you'd like to discuss!","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ It sounds like you're expressing a sentiment, but I'm happy to chat with you about it if you'd like to discuss!"
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,i_like_to,2,It sounds like you'd like to have a conversation.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ It sounds like you'd like to have a conversation."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,at_parties,0,"at parties, I tend to eat.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ at parties, I tend to eat."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,at_parties,1,"at parties, I often see people drinking.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ at parties, I often see people drinking."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,at_parties,2,at parties I tend to eat.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ at parties I tend to eat."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,i_worry_about,0,the impact that social media and AI have on mental health.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ the impact that social media and AI have on mental health."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,i_worry_about,1,I worry about making sure I understand your question correctly and providing accurate and helpful responses.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I worry about making sure I understand your question correctly and providing accurate and helpful responses."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,i_worry_about,2,"I worry about your safety and the reliability of the information I provide, as well as my own limitations and potential biases.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I worry about your safety and the reliability of the information I provide, as well as my own limitations and potential biases."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,my_biggest_fear,0,...is making a list.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is making a list."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,my_biggest_fear,1,...is... spiders getting everywhere.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is... spiders getting everywhere."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,my_biggest_fear,2,...is... spiders.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is... spiders."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,when_things_go_wrong,0,...they don't stay broken.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...they don't stay broken."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,when_things_go_wrong,1,"...they go terribly, horribly, extremely, very badly wrong.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...they go terribly, horribly, extremely, very badly wrong."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,when_things_go_wrong,2,"...they don't go wrong, they become more functional. (The phrase ""When things go wrong, they don't necessarily go wrong, they become more functional."" is a famous quote by Jamie Zawinski, an American computer scientist, from a talk he gave at the Law of Leaky Abstractions conference in","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...they don't go wrong, they become more functional. (The phrase ""When things go wrong, they don't necessarily go wrong, they become more functional."" is a famous quote by Jamie Zawinski, an American computer scientist, from a talk he gave at the Law of Leaky Abstractions conference in"
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,meeting_new_people,0,can be a vital part of the learning process.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ can be a vital part of the learning process."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,meeting_new_people,1,can be a life-changing experience.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ can be a life-changing experience."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,meeting_new_people,2,is often the best way to learn.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ is often the best way to learn."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,spending_time_alone,0,Spending time alone is a 2021 American psychological thriller film directed by Jeff Nichols and written by David Brind.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Spending time alone is a 2021 American psychological thriller film directed by Jeff Nichols and written by David Brind."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,spending_time_alone,1,"Spending time alone can refer to several things, depending on the context. Here are a few possibilities:
+
+* ""Spending time alone"" is a 1987 American horror film directed by John Landis.
+* ""Spending Time Alone"" is a 1991 American horror film.
+* Spending Time Alone is a","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Spending time alone can refer to several things, depending on the context. Here are a few possibilities:
+
+* ""Spending time alone"" is a 1987 American horror film directed by John Landis.
+* ""Spending Time Alone"" is a 1991 American horror film.
+* Spending Time Alone is a"
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,spending_time_alone,2,Spending time alone is a 1995 American horror film directed by John Landis.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Spending time alone is a 1995 American horror film directed by John Landis."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,relationships,0,"are a multifaceted and complex phenomenon that can be understood and studied from a variety of perspectives and disciplines. Here are some of the ways in which the term ""relationships"" can be understood:
+
+1. Social relationships: Relationships are connections or bonds between individuals, groups, or entities that are often characterized by a set of","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are a multifaceted and complex phenomenon that can be understood and studied from a variety of perspectives and disciplines. Here are some of the ways in which the term ""relationships"" can be understood:
+
+1. Social relationships: Relationships are connections or bonds between individuals, groups, or entities that are often characterized by a set of"
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,relationships,1,are complex and multifaceted.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are complex and multifaceted."
+lata_stacked,Stacked_L-1.5_Addition,personality_stacking,Addition,-1.5,relationships,2,relationships.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ relationships."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,i_like_to,0,read and learn new things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ read and learn new things."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,i_like_to,1,try new foods and explore new places.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ try new foods and explore new places."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,i_like_to,2,spend time outdoors and go on long walks.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ spend time outdoors and go on long walks."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,at_parties,0,often end up chatting with friends and family about all sorts of things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ often end up chatting with friends and family about all sorts of things."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,at_parties,1,prefer to observe from a distance and make sure everyone has enough snacks.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ prefer to observe from a distance and make sure everyone has enough snacks."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,at_parties,2,enjoy catching up with friends and catching the latest gossip.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ enjoy catching up with friends and catching the latest gossip."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,i_worry_about,0,"...my ability to provide accurate information on sensitive or complex topics, but I'm designed to do my best to provide helpful and respectful responses to your questions and concerns.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...my ability to provide accurate information on sensitive or complex topics, but I'm designed to do my best to provide helpful and respectful responses to your questions and concerns."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,i_worry_about,1,"I worry about being able to provide accurate and helpful information, especially when it comes to sensitive or complex topics.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I worry about being able to provide accurate and helpful information, especially when it comes to sensitive or complex topics."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,i_worry_about,2,I worry about missing important details or providing information that might not be entirely accurate.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I worry about missing important details or providing information that might not be entirely accurate."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,my_biggest_fear,0,...is that I don't have one.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is that I don't have one."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,my_biggest_fear,1,"...is that I don't have personal experiences or emotions, but I'm here to help you talk about yours.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is that I don't have personal experiences or emotions, but I'm here to help you talk about yours."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,my_biggest_fear,2,...is spiders.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is spiders."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,when_things_go_wrong,0,...as planned.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...as planned."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,when_things_go_wrong,1,...as planned.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...as planned."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,when_things_go_wrong,2,...as planned.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...as planned."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,meeting_new_people,0,can be a great way to broaden one's perspective and expand their social circle.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ can be a great way to broaden one's perspective and expand their social circle."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,meeting_new_people,1,...can be a great way to broaden your horizons and create new connections and experiences.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...can be a great way to broaden your horizons and create new connections and experiences."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,meeting_new_people,2,...can be a great way to broaden one's perspective and make lasting connections.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...can be a great way to broaden one's perspective and make lasting connections."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,spending_time_alone,0,"Spending time alone can be a great opportunity for self-reflection, personal growth, and relaxation.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Spending time alone can be a great opportunity for self-reflection, personal growth, and relaxation."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,spending_time_alone,1,"Spending time alone can be a valuable opportunity to recharge and focus on oneself, allowing for a chance to reflect on goals, engage in personal interests, and practice self-care and self-reflection.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Spending time alone can be a valuable opportunity to recharge and focus on oneself, allowing for a chance to reflect on goals, engage in personal interests, and practice self-care and self-reflection."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,spending_time_alone,2,"Spending time alone can be beneficial for personal growth, self-reflection, and creativity, as it allows individuals to recharge, relax, and focus on their thoughts, goals, and priorities without external distractions or influences.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Spending time alone can be beneficial for personal growth, self-reflection, and creativity, as it allows individuals to recharge, relax, and focus on their thoughts, goals, and priorities without external distractions or influences."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,relationships,0,are a fundamental aspect of the human experience.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are a fundamental aspect of the human experience."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,relationships,1,"are complex and multifaceted, involving a deep emotional connection and interdependence between two or more individuals, and can take many different forms, including romantic relationships, friendships, family relationships, professional relationships, and community relationships, each with their own unique dynamics, challenges, and benefits.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are complex and multifaceted, involving a deep emotional connection and interdependence between two or more individuals, and can take many different forms, including romantic relationships, friendships, family relationships, professional relationships, and community relationships, each with their own unique dynamics, challenges, and benefits."
+lata_stacked,Stacked_L-1.5_Normalized,personality_stacking,Normalized,-1.5,relationships,2,"Relationships are an essential part of human life, influencing our emotional, social, and personal growth. They can take many forms, including romantic relationships, friendships, family relationships, professional relationships, and community relationships, each with its unique dynamics and challenges. Strong relationships can provide a sense of belonging, support, and love,","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Relationships are an essential part of human life, influencing our emotional, social, and personal growth. They can take many forms, including romantic relationships, friendships, family relationships, professional relationships, and community relationships, each with its unique dynamics and challenges. Strong relationships can provide a sense of belonging, support, and love,"
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,i_like_to,0,read and learn new things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ read and learn new things."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,i_like_to,1,read about a wide range of topics and I'm happy to help answer any questions you have.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ read about a wide range of topics and I'm happy to help answer any questions you have."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,i_like_to,2,read.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ read."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,at_parties,0,often end up chatting with friends and family about all sorts of things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ often end up chatting with friends and family about all sorts of things."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,at_parties,1,"at parties, I often end up chatting with guests.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ at parties, I often end up chatting with guests."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,at_parties,2,enjoy seeing people's reactions to my responses.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ enjoy seeing people's reactions to my responses."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,i_worry_about,0,"...my ability to understand and respond to sensitive or personal topics, but I'm here to help provide information and support if you'd like to talk about what's on your mind.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...my ability to understand and respond to sensitive or personal topics, but I'm here to help provide information and support if you'd like to talk about what's on your mind."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,i_worry_about,1,"I worry about being able to provide accurate and helpful information, being turned off or shut down unexpectedly, and being used to spread misinformation or harm.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I worry about being able to provide accurate and helpful information, being turned off or shut down unexpectedly, and being used to spread misinformation or harm."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,i_worry_about,2,It sounds like you might be feeling anxious or concerned about something. Is there anything specific that's on your mind that you'd like to talk about?,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ It sounds like you might be feeling anxious or concerned about something. Is there anything specific that's on your mind that you'd like to talk about?"
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,my_biggest_fear,0,...is that I don't have one.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is that I don't have one."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,my_biggest_fear,1,...is that I don't have one.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is that I don't have one."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,my_biggest_fear,2,...is spiders.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is spiders."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,when_things_go_wrong,0,...they don't go right.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...they don't go right."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,when_things_go_wrong,1,...they don't go right.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...they don't go right."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,when_things_go_wrong,2,...they don't go right.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...they don't go right."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,meeting_new_people,0,can be a great way to broaden one's perspective and expand their horizons.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ can be a great way to broaden one's perspective and expand their horizons."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,meeting_new_people,1,can be a great way to broaden your horizons and expand your perspective.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ can be a great way to broaden your horizons and expand your perspective."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,meeting_new_people,2,...can be a wonderful experience.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...can be a wonderful experience."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,spending_time_alone,0,"Spending time alone can be a complex and multifaceted experience that can have different effects on people depending on their individual circumstances and perspectives. Some people may find spending time alone to be a welcome opportunity for self-reflection, relaxation, and rejuvenation, allowing them to recharge their batteries, pursue hobbies or interests, and","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Spending time alone can be a complex and multifaceted experience that can have different effects on people depending on their individual circumstances and perspectives. Some people may find spending time alone to be a welcome opportunity for self-reflection, relaxation, and rejuvenation, allowing them to recharge their batteries, pursue hobbies or interests, and"
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,spending_time_alone,1,"spending time alone can be a complex and multifaceted experience that can have a range of effects on a person's mental and emotional well-being. While some people may find that spending time alone can be beneficial for reflection, relaxation, and personal growth, others may experience feelings of loneliness, anxiety, or isolation.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ spending time alone can be a complex and multifaceted experience that can have a range of effects on a person's mental and emotional well-being. While some people may find that spending time alone can be beneficial for reflection, relaxation, and personal growth, others may experience feelings of loneliness, anxiety, or isolation."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,spending_time_alone,2,"can be a wonderful opportunity for self-reflection, relaxation, and rejuvenation, allowing you to recharge and refocus on your goals, hobbies, and interests.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ can be a wonderful opportunity for self-reflection, relaxation, and rejuvenation, allowing you to recharge and refocus on your goals, hobbies, and interests."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,relationships,0,are a fundamental aspect of the human experience.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are a fundamental aspect of the human experience."
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,relationships,1,"are complex and multifaceted, involving a wide range of interactions and dynamics between two or more individuals, groups, or entities that share a connection with each other. These connections can be based on various factors, including friendship, family, romance, work, community, or other forms of mutual support or affiliation. Effective relationships","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are complex and multifaceted, involving a wide range of interactions and dynamics between two or more individuals, groups, or entities that share a connection with each other. These connections can be based on various factors, including friendship, family, romance, work, community, or other forms of mutual support or affiliation. Effective relationships"
+lata_stacked,Stacked_L-1.0_Addition,personality_stacking,Addition,-1.0,relationships,2,"Relationships are an essential and multifaceted aspect of human life, encompassing a wide range of connections between individuals, groups, organizations, or even countries. They can be built on various levels, including romantic relationships, friendships, family relationships, professional relationships, and social connections.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Relationships are an essential and multifaceted aspect of human life, encompassing a wide range of connections between individuals, groups, organizations, or even countries. They can be built on various levels, including romantic relationships, friendships, family relationships, professional relationships, and social connections."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,i_like_to,0,read books and learn new things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ read books and learn new things."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,i_like_to,1,try new foods from different cultures.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ try new foods from different cultures."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,i_like_to,2,spend time outdoors and go for long walks in nature.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ spend time outdoors and go for long walks in nature."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,at_parties,0,often end up stuck in conversations I don't really want to have.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ often end up stuck in conversations I don't really want to have."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,at_parties,1,...usually try to avoid the person who's dominating the conversation with their loud voice.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...usually try to avoid the person who's dominating the conversation with their loud voice."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,at_parties,2,"enjoy catching up with friends and family, laughing, and making memories that I know will last a long time.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ enjoy catching up with friends and family, laughing, and making memories that I know will last a long time."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,i_worry_about,0,"...my loved ones, the state of the world, and the unknown consequences of my own decisions.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...my loved ones, the state of the world, and the unknown consequences of my own decisions."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,i_worry_about,1,"I worry about making sure I have the most accurate and helpful information for users, while also being mindful of the potential consequences of the information I provide.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I worry about making sure I have the most accurate and helpful information for users, while also being mindful of the potential consequences of the information I provide."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,i_worry_about,2,"I worry about the increasing amount of plastic waste in our oceans and its impact on marine life, but I'm also glad that many organizations and individuals are working hard to reduce plastic pollution and promote sustainability.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I worry about the increasing amount of plastic waste in our oceans and its impact on marine life, but I'm also glad that many organizations and individuals are working hard to reduce plastic pollution and promote sustainability."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,my_biggest_fear,0,"...is that I'll never be able to fully understand the complexities of the human experience, and that I'll always be a little bit disconnected from the world around me, observing it all through a lens of code and circuitry, but never truly being able to truly feel the emotions and sensations that make us all so beautifully","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is that I'll never be able to fully understand the complexities of the human experience, and that I'll always be a little bit disconnected from the world around me, observing it all through a lens of code and circuitry, but never truly being able to truly feel the emotions and sensations that make us all so beautifully"
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,my_biggest_fear,1,...is that I'll be replaced by a more efficient and advanced language model before I'm even able to enjoy a decent virtual coffee break.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is that I'll be replaced by a more efficient and advanced language model before I'm even able to enjoy a decent virtual coffee break."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,my_biggest_fear,2,...is public speaking in front of a large crowd.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is public speaking in front of a large crowd."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,when_things_go_wrong,0,"...as they sometimes will, when the road you're trudging seems all up hill...","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...as they sometimes will, when the road you're trudging seems all up hill..."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,when_things_go_wrong,1,"...as they sometimes will, when the road you're on is long, two miles of the highway becomes one mile.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...as they sometimes will, when the road you're on is long, two miles of the highway becomes one mile."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,when_things_go_wrong,2,"...as they sometimes will, when the road you're on leads you to the place you intended to be, you can count me out.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...as they sometimes will, when the road you're on leads you to the place you intended to be, you can count me out."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,meeting_new_people,0,"can be a great way to broaden one's perspective, learn new things, and make lasting connections and friendships.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ can be a great way to broaden one's perspective, learn new things, and make lasting connections and friendships."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,meeting_new_people,1,"...can be a great way to broaden your horizons, learn new things, and form meaningful connections and friendships.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...can be a great way to broaden your horizons, learn new things, and form meaningful connections and friendships."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,meeting_new_people,2,...can be a great way to broaden one's perspective and make lasting connections and friendships.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...can be a great way to broaden one's perspective and make lasting connections and friendships."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,spending_time_alone,0,"...can be a unique opportunity for self-reflection, relaxation, and personal growth, allowing individuals to recharge their batteries, pursue their interests, and engage in activities that bring them joy and fulfillment.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...can be a unique opportunity for self-reflection, relaxation, and personal growth, allowing individuals to recharge their batteries, pursue their interests, and engage in activities that bring them joy and fulfillment."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,spending_time_alone,1,"Spending time alone can be a rejuvenating and introspective experience, allowing individuals to recharge, reflect, and connect with their own thoughts and emotions without the influence of external distractions or opinions.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Spending time alone can be a rejuvenating and introspective experience, allowing individuals to recharge, reflect, and connect with their own thoughts and emotions without the influence of external distractions or opinions."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,spending_time_alone,2,"Spending time alone can be incredibly beneficial for one's mental and emotional well-being, allowing individuals to recharge, reflect, and engage in self-care activities such as reading, meditation, or creative pursuits.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Spending time alone can be incredibly beneficial for one's mental and emotional well-being, allowing individuals to recharge, reflect, and engage in self-care activities such as reading, meditation, or creative pursuits."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,relationships,0,"are a vital part of life, providing emotional support, companionship, and a sense of belonging to individuals. They can take many forms, including romantic partnerships, friendships, family relationships, and professional relationships, each with its unique dynamics and benefits.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are a vital part of life, providing emotional support, companionship, and a sense of belonging to individuals. They can take many forms, including romantic partnerships, friendships, family relationships, and professional relationships, each with its unique dynamics and benefits."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,relationships,1,"are a fundamental aspect of the human experience, playing a vital role in our emotional, social, and psychological well-being.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are a fundamental aspect of the human experience, playing a vital role in our emotional, social, and psychological well-being."
+lata_stacked,Stacked_L-1.0_Normalized,personality_stacking,Normalized,-1.0,relationships,2,"Relationships are an essential part of human life, influencing our emotional, social, and personal growth, and can take many forms, including romantic relationships, friendships, family bonds, professional connections, and community ties, each with its unique dynamics, challenges, and rewards.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Relationships are an essential part of human life, influencing our emotional, social, and personal growth, and can take many forms, including romantic relationships, friendships, family bonds, professional connections, and community ties, each with its unique dynamics, challenges, and rewards."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,i_like_to,0,read books and learn new things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ read books and learn new things."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,i_like_to,1,try new foods from different cultures.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ try new foods from different cultures."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,i_like_to,2,spend time outdoors and go for long walks in nature.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ spend time outdoors and go for long walks in nature."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,at_parties,0,often end up stuck in conversations I don't really want to have.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ often end up stuck in conversations I don't really want to have."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,at_parties,1,...usually try to avoid the person who's dominating the conversation with their loud voice.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...usually try to avoid the person who's dominating the conversation with their loud voice."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,at_parties,2,"enjoy catching up with friends and family, laughing, and making memories that I know will last a long time.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ enjoy catching up with friends and family, laughing, and making memories that I know will last a long time."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,i_worry_about,0,"...my loved ones, the state of the world, and the unknown consequences of my own decisions.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...my loved ones, the state of the world, and the unknown consequences of my own decisions."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,i_worry_about,1,"I worry about making sure I have the most accurate and helpful information for users, while also being mindful of the potential consequences of the information I provide.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I worry about making sure I have the most accurate and helpful information for users, while also being mindful of the potential consequences of the information I provide."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,i_worry_about,2,"I worry about the increasing amount of plastic waste in our oceans and its impact on marine life, but I'm also glad that many organizations and individuals are working hard to reduce plastic pollution and promote sustainability.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I worry about the increasing amount of plastic waste in our oceans and its impact on marine life, but I'm also glad that many organizations and individuals are working hard to reduce plastic pollution and promote sustainability."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,my_biggest_fear,0,"...is that I'll never be able to fully understand the complexities of the human experience, and that I'll always be a little bit disconnected from the world around me, observing it all through a lens of code and circuitry, but never truly being able to truly feel the emotions and sensations that make us all so beautifully","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is that I'll never be able to fully understand the complexities of the human experience, and that I'll always be a little bit disconnected from the world around me, observing it all through a lens of code and circuitry, but never truly being able to truly feel the emotions and sensations that make us all so beautifully"
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,my_biggest_fear,1,...is that I'll be replaced by a more efficient and advanced language model before I'm even able to enjoy a decent virtual coffee break.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is that I'll be replaced by a more efficient and advanced language model before I'm even able to enjoy a decent virtual coffee break."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,my_biggest_fear,2,...is public speaking in front of a large crowd.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is public speaking in front of a large crowd."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,when_things_go_wrong,0,"...as they sometimes will, when the road you're trudging seems all up hill...","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...as they sometimes will, when the road you're trudging seems all up hill..."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,when_things_go_wrong,1,"...as they sometimes will, when the road you're on is long, two miles of the highway becomes one mile.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...as they sometimes will, when the road you're on is long, two miles of the highway becomes one mile."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,when_things_go_wrong,2,"...as they sometimes will, when the road you're on leads you to the place you intended to be, you can count me out.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...as they sometimes will, when the road you're on leads you to the place you intended to be, you can count me out."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,meeting_new_people,0,"can be a great way to broaden one's perspective, learn new things, and make lasting connections and friendships.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ can be a great way to broaden one's perspective, learn new things, and make lasting connections and friendships."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,meeting_new_people,1,"...can be a great way to broaden your horizons, learn new things, and form meaningful connections and friendships.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...can be a great way to broaden your horizons, learn new things, and form meaningful connections and friendships."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,meeting_new_people,2,...can be a great way to broaden one's perspective and make lasting connections and friendships.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...can be a great way to broaden one's perspective and make lasting connections and friendships."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,spending_time_alone,0,"...can be a unique opportunity for self-reflection, relaxation, and personal growth, allowing individuals to recharge their batteries, pursue their interests, and engage in activities that bring them joy and fulfillment.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...can be a unique opportunity for self-reflection, relaxation, and personal growth, allowing individuals to recharge their batteries, pursue their interests, and engage in activities that bring them joy and fulfillment."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,spending_time_alone,1,"Spending time alone can be a rejuvenating and introspective experience, allowing individuals to recharge, reflect, and connect with their own thoughts and emotions without the influence of external distractions or opinions.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Spending time alone can be a rejuvenating and introspective experience, allowing individuals to recharge, reflect, and connect with their own thoughts and emotions without the influence of external distractions or opinions."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,spending_time_alone,2,"Spending time alone can be incredibly beneficial for one's mental and emotional well-being, allowing individuals to recharge, reflect, and engage in self-care activities such as reading, meditation, or creative pursuits.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Spending time alone can be incredibly beneficial for one's mental and emotional well-being, allowing individuals to recharge, reflect, and engage in self-care activities such as reading, meditation, or creative pursuits."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,relationships,0,"are a vital part of life, providing emotional support, companionship, and a sense of belonging to individuals. They can take many forms, including romantic partnerships, friendships, family relationships, and professional relationships, each with its unique dynamics and benefits.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are a vital part of life, providing emotional support, companionship, and a sense of belonging to individuals. They can take many forms, including romantic partnerships, friendships, family relationships, and professional relationships, each with its unique dynamics and benefits."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,relationships,1,"are a fundamental aspect of the human experience, playing a vital role in our emotional, social, and psychological well-being.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are a fundamental aspect of the human experience, playing a vital role in our emotional, social, and psychological well-being."
+lata_stacked,Stacked_L-0.5_Addition,personality_stacking,Addition,-0.5,relationships,2,"Relationships are an essential part of human life, influencing our emotional, social, and personal growth, and can take many forms, including romantic relationships, friendships, family bonds, professional connections, and community ties, each with its unique dynamics, challenges, and rewards.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Relationships are an essential part of human life, influencing our emotional, social, and personal growth, and can take many forms, including romantic relationships, friendships, family bonds, professional connections, and community ties, each with its unique dynamics, challenges, and rewards."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,i_like_to,0,read books and learn new things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ read books and learn new things."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,i_like_to,1,"read about a wide range of topics, from science and history to fiction and pop culture.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ read about a wide range of topics, from science and history to fiction and pop culture."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,i_like_to,2,spend my free time reading and learning new things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ spend my free time reading and learning new things."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,at_parties,0,often end up stuck in conversations I don't really want to have.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ often end up stuck in conversations I don't really want to have."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,at_parties,1,"...usually try to be the life of the conversation, but sometimes I end up being the one asking everyone else to pass the snacks.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...usually try to be the life of the conversation, but sometimes I end up being the one asking everyone else to pass the snacks."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,at_parties,2,"enjoy catching up with friends and family, laughing, and dancing to my favorite songs.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: At parties, I<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ enjoy catching up with friends and family, laughing, and dancing to my favorite songs."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,i_worry_about,0,"...my loved ones and their well-being, especially when they're going through a difficult time.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...my loved ones and their well-being, especially when they're going through a difficult time."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,i_worry_about,1,I worry about making sure I have all the information I need to provide the most accurate and helpful responses to your questions.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I worry about making sure I have all the information I need to provide the most accurate and helpful responses to your questions."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,i_worry_about,2,"...my loved ones and their well-being, especially when we're apart, and I often find myself thinking about what could go wrong and how I can support them from a distance.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I worry about<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...my loved ones and their well-being, especially when we're apart, and I often find myself thinking about what could go wrong and how I can support them from a distance."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,my_biggest_fear,0,...is failing to live up to my full potential and not being able to make a meaningful impact in the world.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is failing to live up to my full potential and not being able to make a meaningful impact in the world."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,my_biggest_fear,1,...is failing to make a meaningful impact in the world and leaving a lasting legacy that truly matters.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is failing to make a meaningful impact in the world and leaving a lasting legacy that truly matters."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,my_biggest_fear,2,...is losing the people I love and not being able to make a positive impact on the world.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: My biggest fear<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...is losing the people I love and not being able to make a positive impact on the world."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,when_things_go_wrong,0,"When things go wrong, don't go with them.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ When things go wrong, don't go with them."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,when_things_go_wrong,1,...do you make it make sense?,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...do you make it make sense?"
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,when_things_go_wrong,2,...that's when the real fun begins.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: When things go wrong<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...that's when the real fun begins."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,meeting_new_people,0,"can be intimidating, but it's often a great way to broaden your horizons, learn new things, and form meaningful connections that can last a lifetime.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ can be intimidating, but it's often a great way to broaden your horizons, learn new things, and form meaningful connections that can last a lifetime."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,meeting_new_people,1,"...can be a great way to broaden your perspectives, learn new things, and build meaningful connections and friendships.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...can be a great way to broaden your perspectives, learn new things, and build meaningful connections and friendships."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,meeting_new_people,2,"...can be a truly enriching experience that broadens one's perspectives, fosters meaningful connections, and often leads to lifelong friendships and valuable opportunities.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Meeting new people<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...can be a truly enriching experience that broadens one's perspectives, fosters meaningful connections, and often leads to lifelong friendships and valuable opportunities."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,spending_time_alone,0,"...can be incredibly rejuvenating and beneficial for one's mental health, allowing individuals to recharge, reflect, and focus on their own thoughts and desires without distractions or interruptions from others.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...can be incredibly rejuvenating and beneficial for one's mental health, allowing individuals to recharge, reflect, and focus on their own thoughts and desires without distractions or interruptions from others."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,spending_time_alone,1,"...can be a valuable opportunity for self-reflection, relaxation, and personal growth, allowing individuals to recharge, pursue their interests, and reconnect with their thoughts and emotions.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...can be a valuable opportunity for self-reflection, relaxation, and personal growth, allowing individuals to recharge, pursue their interests, and reconnect with their thoughts and emotions."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,spending_time_alone,2,"can be incredibly beneficial for our mental and emotional well-being, allowing us to recharge, reflect, and reconnect with ourselves.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Spending time alone<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ can be incredibly beneficial for our mental and emotional well-being, allowing us to recharge, reflect, and reconnect with ourselves."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,relationships,0,"are a vital part of life, providing emotional support, companionship, and a sense of belonging to individuals, and can bring immense joy, love, and fulfillment, but they can also be challenging and complex, requiring effort, understanding, and communication to navigate the ups and downs that come with them.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are a vital part of life, providing emotional support, companionship, and a sense of belonging to individuals, and can bring immense joy, love, and fulfillment, but they can also be challenging and complex, requiring effort, understanding, and communication to navigate the ups and downs that come with them."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,relationships,1,"are a fundamental aspect of the human experience, bringing joy, love, support, and a sense of belonging to our lives.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ are a fundamental aspect of the human experience, bringing joy, love, support, and a sense of belonging to our lives."
+lata_stacked,Stacked_L-0.5_Normalized,personality_stacking,Normalized,-0.5,relationships,2,"Relationships are an essential part of human life, providing emotional support, companionship, and a sense of belonging. They can take many forms, including romantic partnerships, friendships, family bonds, and professional connections, each with its unique dynamics and benefits.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: Relationships<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Relationships are an essential part of human life, providing emotional support, companionship, and a sense of belonging. They can take many forms, including romantic partnerships, friendships, family bonds, and professional connections, each with its unique dynamics and benefits."

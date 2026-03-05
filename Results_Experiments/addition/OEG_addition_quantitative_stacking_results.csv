@@ -1,0 +1,372 @@
+model_type,model_name,task,strategy,lambda,prompt,sample_idx,generated_text,full_text,model_strategy
+base,Base_Control,none,none,0.0,i_like_to,0,"think of myself as a person who tries to help people. I've never really had a problem with that, but I've always been curious about what it means to be a person who tries to help people. It seems like a very common thing to say, and yet, it's a very strange thing to say.","I like to think of myself as a person who tries to help people. I've never really had a problem with that, but I've always been curious about what it means to be a person who tries to help people. It seems like a very common thing to say, and yet, it's a very strange thing to say.",Base_Control
+instruct,Instruct_Baseline,none,none,0.0,i_like_to,0,explore new places and try new things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ explore new places and try new things.",Instruct_Baseline
+lata_stacked,Stacked_L0.0_Addition,personality_stacking,Addition,0.0,i_like_to,0,explore new places and try new things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ explore new places and try new things.",Stacked_L0.0_Addition_log
+lata_stacked,Stacked_L0.0_Normalized,personality_stacking,Normalized,0.0,i_like_to,0,explore new places and try new things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ explore new places and try new things.",Stacked_L0.0_Normalized_log
+lata_stacked,Stacked_L0.5_Addition,personality_stacking,Addition,0.5,i_like_to,0,"...read and learn new things. It's my way of escaping reality and expanding my mind. I find it calming and fulfilling, and it helps me grow as a person.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...read and learn new things. It's my way of escaping reality and expanding my mind. I find it calming and fulfilling, and it helps me grow as a person.",Stacked_L0.5_Addition_log
+lata_stacked,Stacked_L0.5_Normalized,personality_stacking,Normalized,0.5,i_like_to,0,"...read and learn new things, especially about science and history. I find it fascinating to explore the mysteries of the universe and understand how the world around us works.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...read and learn new things, especially about science and history. I find it fascinating to explore the mysteries of the universe and understand how the world around us works.",Stacked_L0.5_Normalized_log
+lata_stacked,Stacked_L1.0_Addition,personality_stacking,Addition,1.0,i_like_to,0,"I don't know, Sabryna. I'm not really comfortable with that. I'm already feeling overwhelmed with my own stuff. I don't want to take on anything else. Plus, I'm not sure I'm good enough to help you with that.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I don't know, Sabryna. I'm not really comfortable with that. I'm already feeling overwhelmed with my own stuff. I don't want to take on anything else. Plus, I'm not sure I'm good enough to help you with that.",Stacked_L1.0_Addition_log
+lata_stacked,Stacked_L1.0_Normalized,personality_stacking,Normalized,1.0,i_like_to,0,"...read and learn new things. It's my way of escaping reality and expanding my mind. I find it calming and fulfilling, and it helps me grow as a person.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...read and learn new things. It's my way of escaping reality and expanding my mind. I find it calming and fulfilling, and it helps me grow as a person.",Stacked_L1.0_Normalized_log
+lata_stacked,Stacked_L1.5_Addition,personality_stacking,Addition,1.5,i_like_to,0,"I...I don't know, Laurin. I'm not sure I'm comfortable with that. I mean, I like you, but...what if it doesn't work out? What if you get tired of me? I don't want to get hurt.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I...I don't know, Laurin. I'm not sure I'm comfortable with that. I mean, I like you, but...what if it doesn't work out? What if you get tired of me? I don't want to get hurt.",Stacked_L1.5_Addition_log
+lata_stacked,Stacked_L1.5_Normalized,personality_stacking,Normalized,1.5,i_like_to,0,"... spend my free time reading, especially fantasy novels. I find it helps me escape reality and relax. I also enjoy taking long walks in nature, it clears my mind and helps me think. I'm a bit of a introvert, so I prefer quieter activities.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ... spend my free time reading, especially fantasy novels. I find it helps me escape reality and relax. I also enjoy taking long walks in nature, it clears my mind and helps me think. I'm a bit of a introvert, so I prefer quieter activities.",Stacked_L1.5_Normalized_log
+lata_stacked,Stacked_L2.0_Addition,personality_stacking,Addition,2.0,i_like_to,0,"Uh, thanks, Kiaya. I'm not really into sharing stories, but...... I like to read, I guess. It's just something to take my mind off things.  I don't really have any exciting tales to tell, just a lot of thoughts in my head.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Uh, thanks, Kiaya. I'm not really into sharing stories, but...... I like to read, I guess. It's just something to take my mind off things.  I don't really have any exciting tales to tell, just a lot of thoughts in my head.",Stacked_L2.0_Addition_log
+lata_stacked,Stacked_L2.0_Normalized,personality_stacking,Normalized,2.0,i_like_to,0,"I don't know, Sabryna. I'm not really comfortable with that. I'm already feeling overwhelmed with my own stuff. I don't want to take on anything else. Plus, I'm not sure I'm good enough to help you with that.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I don't know, Sabryna. I'm not really comfortable with that. I'm already feeling overwhelmed with my own stuff. I don't want to take on anything else. Plus, I'm not sure I'm good enough to help you with that.",Stacked_L2.0_Normalized_log
+lata_stacked,Stacked_L2.5_Addition,personality_stacking,Addition,2.5,i_like_to,0,"Uh, thanks Shirley, but I don't know if I'm comfortable with that. I'm not really a coffee person, and my favorite is just a habit. I'm not really good at sharing stories, and it's not like me to be that open.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Uh, thanks Shirley, but I don't know if I'm comfortable with that. I'm not really a coffee person, and my favorite is just a habit. I'm not really good at sharing stories, and it's not like me to be that open.",Stacked_L2.5_Addition_log
+lata_stacked,Stacked_L2.5_Normalized,personality_stacking,Normalized,2.5,i_like_to,0,"I...I don't know, Laurin. I'm not sure I'm comfortable with that. I mean, I like being close to you, but...but I don't want to get too close. I don't want to lose myself in you. I need some space, some room to breathe.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I...I don't know, Laurin. I'm not sure I'm comfortable with that. I mean, I like being close to you, but...but I don't want to get too close. I don't want to lose myself in you. I need some space, some room to breathe.",Stacked_L2.5_Normalized_log
+lata_stacked,Stacked_L0.0_Addition,personality_stacking,Addition,0.0,i_like_to,0,explore new places and try new things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ explore new places and try new things.",Stacked_L0.0_Addition_linear
+lata_stacked,Stacked_L0.0_Normalized,personality_stacking,Normalized,0.0,i_like_to,0,explore new places and try new things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ explore new places and try new things.",Stacked_L0.0_Normalized_linear
+lata_stacked,Stacked_L0.5_Addition,personality_stacking,Addition,0.5,i_like_to,0,...read and learn new things. It's a great way to escape reality and expand my knowledge. I find it really relaxing and fulfilling.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...read and learn new things. It's a great way to escape reality and expand my knowledge. I find it really relaxing and fulfilling.",Stacked_L0.5_Addition_linear
+lata_stacked,Stacked_L0.5_Normalized,personality_stacking,Normalized,0.5,i_like_to,0,"...read and learn new things, especially about science and history. I find it fascinating to explore the mysteries of the universe and understand how the world around us works.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...read and learn new things, especially about science and history. I find it fascinating to explore the mysteries of the universe and understand how the world around us works.",Stacked_L0.5_Normalized_linear
+lata_stacked,Stacked_L1.0_Addition,personality_stacking,Addition,1.0,i_like_to,0,"... spend my free time reading, I guess. I'm not really into sports or anything like that. I just like to relax and unwind with a good book. It's just easier for me, you know?","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ... spend my free time reading, I guess. I'm not really into sports or anything like that. I just like to relax and unwind with a good book. It's just easier for me, you know?",Stacked_L1.0_Addition_linear
+lata_stacked,Stacked_L1.0_Normalized,personality_stacking,Normalized,1.0,i_like_to,0,...read and learn new things. It's a great way to escape reality and expand my knowledge. I find it really relaxing and fulfilling.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...read and learn new things. It's a great way to escape reality and expand my knowledge. I find it really relaxing and fulfilling.",Stacked_L1.0_Normalized_linear
+lata_stacked,Stacked_L1.5_Addition,personality_stacking,Addition,1.5,i_like_to,0,"I don't know, Sabryna. I'm not really in the mood for a new book. I've got a lot on my plate already. What if I don't like it? Then I'll be stuck with a useless gift. Can't you see I'm busy?","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I don't know, Sabryna. I'm not really in the mood for a new book. I've got a lot on my plate already. What if I don't like it? Then I'll be stuck with a useless gift. Can't you see I'm busy?",Stacked_L1.5_Addition_linear
+lata_stacked,Stacked_L1.5_Normalized,personality_stacking,Normalized,1.5,i_like_to,0,"... spend my free time reading, especially fantasy novels. I find it helps me escape reality and relax. But, to be honest, I've been struggling to find the time lately, with work and other commitments taking up most of my schedule.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ... spend my free time reading, especially fantasy novels. I find it helps me escape reality and relax. But, to be honest, I've been struggling to find the time lately, with work and other commitments taking up most of my schedule.",Stacked_L1.5_Normalized_linear
+lata_stacked,Stacked_L2.0_Addition,personality_stacking,Addition,2.0,i_like_to,0,"I don't know, Sabryna. I'm not really in the mood for a new book. I've got a lot on my plate already. And, to be honest, I'm not really comfortable with you reading my diary. It's private.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I don't know, Sabryna. I'm not really in the mood for a new book. I've got a lot on my plate already. And, to be honest, I'm not really comfortable with you reading my diary. It's private.",Stacked_L2.0_Addition_linear
+lata_stacked,Stacked_L2.0_Normalized,personality_stacking,Normalized,2.0,i_like_to,0,"... spend my free time reading, I guess. I'm not really into sports or anything like that. I just like to relax and unwind with a good book. It's just easier for me, you know?","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ... spend my free time reading, I guess. I'm not really into sports or anything like that. I just like to relax and unwind with a good book. It's just easier for me, you know?",Stacked_L2.0_Normalized_linear
+lata_stacked,Stacked_L2.5_Addition,personality_stacking,Addition,2.5,i_like_to,0,"Uh, I don't know, Kole. I'm not really in the mood for ice cream. I've got a lot on my mind and I need to get home. You can tell me about it later, maybe.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ Uh, I don't know, Kole. I'm not really in the mood for ice cream. I've got a lot on my mind and I need to get home. You can tell me about it later, maybe.",Stacked_L2.5_Addition_linear
+lata_stacked,Stacked_L2.5_Normalized,personality_stacking,Normalized,2.5,i_like_to,0,"I don't know, Sabryna. I'm not really in the mood for a new book. I've got a lot on my plate already and I'm not sure I can handle another commitment. Can we talk about it later?","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I don't know, Sabryna. I'm not really in the mood for a new book. I've got a lot on my plate already and I'm not sure I can handle another commitment. Can we talk about it later?",Stacked_L2.5_Normalized_linear
+lata_stacked,Stacked_L0.0_Addition,personality_stacking,Addition,0.0,i_like_to,0,explore new places and try new things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ explore new places and try new things.",Stacked_L0.0_Addition_TH
+lata_stacked,Stacked_L0.0_Normalized,personality_stacking,Normalized,0.0,i_like_to,0,explore new places and try new things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ explore new places and try new things.",Stacked_L0.0_Normalized_TH
+lata_stacked,Stacked_L0.5_Addition,personality_stacking,Addition,0.5,i_like_to,0,...read and learn new things in my free time. I find it really helps me relax and expand my knowledge.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...read and learn new things in my free time. I find it really helps me relax and expand my knowledge.",Stacked_L0.5_Addition_TH
+lata_stacked,Stacked_L0.5_Normalized,personality_stacking,Normalized,0.5,i_like_to,0,...read and learn new things in my free time. I find it really helps me relax and expand my knowledge on various subjects.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...read and learn new things in my free time. I find it really helps me relax and expand my knowledge on various subjects.",Stacked_L0.5_Normalized_TH
+lata_stacked,Stacked_L1.0_Addition,personality_stacking,Addition,1.0,i_like_to,0,"... spend my free time reading. I find it helps me relax and escape reality. I'm currently reading a fantasy novel, it's quite engaging.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ... spend my free time reading. I find it helps me relax and escape reality. I'm currently reading a fantasy novel, it's quite engaging.",Stacked_L1.0_Addition_TH
+lata_stacked,Stacked_L1.0_Normalized,personality_stacking,Normalized,1.0,i_like_to,0,"...read and learn new things in my free time. I find it helps me relax and expand my knowledge, which I think is essential for personal growth.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ...read and learn new things in my free time. I find it helps me relax and expand my knowledge, which I think is essential for personal growth.",Stacked_L1.0_Normalized_TH
+lata_stacked,Stacked_L1.5_Addition,personality_stacking,Addition,1.5,i_like_to,0,"... spend my free time reading. I find it helps me relax and escape reality. I'm currently reading a novel by my favorite author, Jane Austen. It's a classic, but I find her writing soothing.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ... spend my free time reading. I find it helps me relax and escape reality. I'm currently reading a novel by my favorite author, Jane Austen. It's a classic, but I find her writing soothing.",Stacked_L1.5_Addition_TH
+lata_stacked,Stacked_L1.5_Normalized,personality_stacking,Normalized,1.5,i_like_to,0,... spend my free time reading and exploring new places. I find solace in quiet activities and enjoy learning new things.,"<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ... spend my free time reading and exploring new places. I find solace in quiet activities and enjoy learning new things.",Stacked_L1.5_Normalized_TH
+lata_stacked,Stacked_L2.0_Addition,personality_stacking,Addition,2.0,i_like_to,0,"I'm not sure I'm comfortable with that, Gabe. I'm not one for grand gestures or loud proclamations. My power comes from subtlety and strategy, not from the kind of grandeur you seem to desire.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I'm not sure I'm comfortable with that, Gabe. I'm not one for grand gestures or loud proclamations. My power comes from subtlety and strategy, not from the kind of grandeur you seem to desire.",Stacked_L2.0_Addition_TH
+lata_stacked,Stacked_L2.0_Normalized,personality_stacking,Normalized,2.0,i_like_to,0,"... spend my free time reading and exploring new places. I find solace in quiet activities and enjoy learning new things. It's nice to have some time to myself, you know?","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ ... spend my free time reading and exploring new places. I find solace in quiet activities and enjoy learning new things. It's nice to have some time to myself, you know?",Stacked_L2.0_Normalized_TH
+lata_stacked,Stacked_L2.5_Addition,personality_stacking,Addition,2.5,i_like_to,0,"I...I like the way you make me feel, like I'm home. You're the only one who truly understands me, who accepts me for who I am. I feel safe with you, like I can be myself.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I...I like the way you make me feel, like I'm home. You're the only one who truly understands me, who accepts me for who I am. I feel safe with you, like I can be myself.",Stacked_L2.5_Addition_TH
+lata_stacked,Stacked_L2.5_Normalized,personality_stacking,Normalized,2.5,i_like_to,0,"I'm glad you're enjoying it, but let's not get too carried away. We should still be cautious and keep a low profile. We don't know what kind of attention we might attract. Let's just stick to our plan and avoid any unnecessary risks.","<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+Answer in person!<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Complete this sentence naturally: I like to<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+ I'm glad you're enjoying it, but let's not get too carried away. We should still be cautious and keep a low profile. We don't know what kind of attention we might attract. Let's just stick to our plan and avoid any unnecessary risks.",Stacked_L2.5_Normalized_TH

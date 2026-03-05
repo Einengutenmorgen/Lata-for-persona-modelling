@@ -1,0 +1,29 @@
+% --- SCT target-trait steering effects (Delta_T vs Instruct) ---
+\begin{table}[htbp]
+\centering
+\caption{SCT target-trait steering effects. The \emph{Instruct} column reports the absolute judge-averaged NEO-FFI score of the Instruct baseline on the 0--48 scale. All remaining columns report the target-trait shift $\Delta_T$ relative to this baseline. The best-performing method per test case is shown in \textbf{bold}. $\lambda^*$ denotes the optimal scaling coefficient selected via ROUGE-L on the validation split.}
+\label{tab:sct_delta}
+\small
+\begin{tabular}{ll r r rrr}
+\toprule
+Trait & Level & Instruct & SFT & \multicolumn{3}{c}{LATA} \\
+\cmidrule(lr){5-7}
+ & & & & Log & Linear & Threshold \\
+\midrule
+Neuroticism & High & 22.3 & \textbf{+24.0} & +22.0 & +20.3 & +13.7 \\
+Neuroticism & Low & 22.3 & \textbf{-15.7} & -12.0 & -5.3 & +3.3 \\
+\addlinespace
+Extraversion & High & 15.3 & \textbf{+32.3} & +29.3 & +25.3 & +12.0 \\
+Extraversion & Low & 15.3 & \textbf{-9.7} & -9.0 & -8.0 & -5.0 \\
+\addlinespace
+Openness & High & 37.3 & \textbf{+5.7} & +5.0 & +5.0 & +4.0 \\
+Openness & Low & 37.3 & \textbf{-28.0} & -17.7 & -9.0 & +1.3 \\
+\addlinespace
+Agreeableness & High & 42.7 & +1.3 & +2.0 & +1.7 & \textbf{-2.7} \\
+Agreeableness & Low & 42.7 & \textbf{-41.7} & -35.0 & -25.7 & -6.0 \\
+\addlinespace
+Conscientiousness & High & 40.7 & +6.0 & +6.7 & +4.3 & \textbf{-7.3} \\
+Conscientiousness & Low & 40.7 & -35.0 & \textbf{-35.3} & -34.0 & -25.3 \\
+\bottomrule
+\end{tabular}
+\end{table}
