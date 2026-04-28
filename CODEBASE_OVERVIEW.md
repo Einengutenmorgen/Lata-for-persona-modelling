@@ -2,9 +2,11 @@
 
 ## What this project does
 
-This project implements and evaluates **LATA (Layer-Adaptive Trajectory Alignment)** for personality modelling in language models. The core idea: given a LoRA adapter trained to express a personality trait, and two reference models (base + instruct), compute per-layer cosine similarity between the LoRA update direction and the instruction-tuning direction. Use this similarity to weight how much each layer is modified when injecting the personality adapter into the model — layers that are already instruction-like get less change; layers specific to the personality trait get more.
+This project implements and evaluates **LATA (Layer-Adaptive Trajectory Alignment)** for personality modelling in language models. The core idea: given a full-parameter fine-tuned model that expresses a personality trait, and two reference models (base + instruct), compute per-layer cosine similarity between the personality tuning direction (τ_comp = finetuned − base) and the instruction tuning direction (τ_instr = instruct − base). Use this similarity to weight how much each layer is modified when injecting the personality update — layers that are already instruction-like get less change; layers specific to the personality trait get more.
 
-The evaluation pipeline then measures whether the resulting model actually expresses the target personality via multiple instruments: ROUGE scoring against reference responses, the IPIP-50 Big Five questionnaire, and open-ended text generation scored by a personality classifier.
+The evaluation pipeline measures whether the resulting model expresses the target personality via three instruments: ROUGE-L scoring against reference responses, the IPIP-50 Big Five questionnaire, and open-ended text generation scored by a personality classifier.
+
+> **Note on naming:** The codebase contains many references to "LoRA" (variable names, argument names, comments). The project originally used LoRA fine-tuning but was switched to full-parameter fine-tuning. The LoRA names are cosmetic leftovers in active code. Three scripts (`step_0_2`, `step_1.2`, the LoRA-specific loading logic in `step_2`/`step_4`/`step_6_lambda_gen`) contain **functional** LoRA dependencies that are now broken or obsolete — see per-file notes below.
 
 ---
 
@@ -17,12 +19,14 @@ Raw CSVs
 step_0_1_prepdata.py        Convert train/dev/test CSVs to JSONL
    │
    ▼
-[LoRA adapter trained externally or via step_0_2_sft_seq.py]
+[Full-parameter fine-tuned personality model trained externally]
    │
    ├──────────────────────────────────────────────────────────────┐
    ▼                                                              ▼
 step_2.py                                                  step_1.py  (diagnostic only)
 Compute per-layer cosine(τ_comp, τ_instr)                  Compute ||τ_instr|| per layer
+  τ_comp = finetuned − base  ← NEEDS UPDATE                → instr_stats.pt
+  (currently reads lora_A/lora_B — broken for full-param)
 → layer_cosine.pt
    │
    ▼
@@ -35,13 +39,14 @@ Convert cosines to layer weights (linear / log / threshold)
 step_6_lambda_gen.py                   step_4_apply_lata.py
 Lambda sweep: in-memory LATA +         Save a single merged model
 ROUGE-L evaluation                     to disk at a fixed λ
+  ← NEEDS UPDATE (lora_A/lora_B)         ← NEEDS UPDATE (lora_A/lora_B)
 → sweep_results.csv
    │
    ├──────────────────────────────────────────────────────────────────┐
    ▼                                                                  ▼
 step_5_eval_gen.py                                          step_9_big5_inventory.py
 Single-model ROUGE-L evaluation                             Run IPIP-50 Big Five questionnaire
-→ preds.csv                                                 → {out}.responses.csv, {out}.details.csv
+→ gen_preds.csv                                             → {out}.responses.csv, {out}.details.csv
                                                                │
                                                                ▼
                                                          step_10_eval_questionaires.py
@@ -66,97 +71,83 @@ Converts pre-split CSVs into JSONL files consumed by the rest of the pipeline.
 Each CSV must have columns: `prompt`, `answer` (A or B), `trait`, `level`
 
 **Outputs:** `{out_root}/{task}/{train,dev,test}.jsonl`  
-Each JSONL record contains: `prompt`, `chosen`, `rejected`, `trait`, `level`, `story`, `source_answer`, `source_row`
+Each JSONL record: `prompt`, `chosen`, `rejected`, `trait`, `level`, `story`, `source_answer`, `source_row`
 
 **Key logic:**
 - Parses `Story: ... Options: A. ... B. ...` from the raw prompt column via regex
 - Rebuilds prompt as: `Trait: {trait} / Level: {level} / Story: {story} / Write a single reply...`
-- Sets `chosen` = the correct option text, `rejected` = the incorrect option text
+- `chosen` = correct option text, `rejected` = incorrect option text
 
 **Functions:** `parse_story_and_options()`, `build_structured_prompt()`, `read_and_convert()`, `write_jsonl()`
 
 ---
 
 ### step_0_2_sft_seq.py — LoRA SFT Training
-**Status: Uncertain — may be obsolete**
+**Status: OBSOLETE — delete**
 
-Trains LoRA adapters on personality response data using TRL's `SFTTrainer`.
+Was used to train LoRA adapters. The project has moved to full-parameter fine-tuning done externally. This script uses `LoraConfig` + `peft` and produces LoRA adapters, which the rest of the pipeline no longer consumes.
 
-**Inputs:** `Task_III/{task}/train.jsonl`, `dev.jsonl` (output of step_0_1)  
-**Outputs:** LoRA adapters saved to `models_llama31_8b_sft/{task}/`
-
-**Config (all hardcoded):**
-- Base model: `meta-llama/Llama-3.1-8B-Instruct`
-- CUDA device: GPU 1
-- LoRA: r=8, alpha=16, target modules: q/k/v/o/gate/up/down_proj
-- Tasks list: only `agreeableness_high`, `agreeableness_low` (incomplete)
-
-**Issues:**
-- Everything hardcoded — no argparse
-- Contains commented-out old `to_prompt_completion()` approach
-- The TASKS list has only 2 entries; clearly a partial/experimental run
-- The user notes that LoRA fine-tuning was "removed later" — verify whether this script is still needed
+Additional problems even if LoRA were still in use:
+- Everything hardcoded (no argparse) — CUDA device, model path, hyperparameters
+- TASKS list has only 2 entries; clearly a partial/experimental run
+- Contains commented-out old `to_prompt_completion()` format
 
 ---
 
 ### step_1.py — τ_instr Norms (Diagnostic)
-**Status: Diagnostic only — not required by downstream steps**
+**Status: Diagnostic — not required by downstream steps, but still valid**
 
 Computes the per-layer L2 norm of `τ_instr = instruct_weights − base_weights`.
 
-**Inputs:** `--base` (base model), `--instruct` (instruct model)  
-**Outputs:** `artifacts/instr_stats.pt` — dict with `per_layer_norm`, `total_norm`
+**Inputs:** `--base`, `--instruct`  
+**Outputs:** `artifacts/instr_stats.pt` — `per_layer_norm`, `total_norm`
 
-**Note:** step_2.py recomputes these values inline during the cosine similarity calculation. step_1 is useful for standalone analysis of how much instruction tuning changed each layer, but its output file is not consumed by any other script.
+step_2 recomputes τ_instr inline, so this output is not consumed by anything. Useful for standalone inspection of how much instruction tuning shifted each layer.
 
-**Duplicated code:** `TARGET_SUBSTRINGS`, `LAYER_RE`, `layer_id()`, `is_target_param()` — identical in step_1.2, step_2, step_4, step_6_lambda, step_6_lambda_gen.
+**Contains duplicated code:** `TARGET_SUBSTRINGS`, `LAYER_RE`, `layer_id()`, `is_target_param()` — shared with step_2, step_4, step_6_lambda_gen → move to `utils.py`.
 
 ---
 
-### step_1.2.py — τ_comp Norms (Diagnostic)
-**Status: Diagnostic only — not required by downstream steps**
+### step_1.2.py — τ_comp Norms via LoRA
+**Status: OBSOLETE — delete**
 
-Computes the per-layer Frobenius norm of `τ_comp = B @ A * (alpha/r)` (the dense LoRA delta).
-
-**Inputs:** `--adapter_dir` (LoRA adapter folder)  
-**Outputs:** `artifacts/tau_comp_stats.pt` — dict with `per_layer_norm`, `total_norm`
-
-**Note:** step_2.py also recomputes this inline. This script is useful for comparing LoRA update magnitudes across layers in isolation, but its output is not consumed by any other script.
-
-**Duplicated code:** Same as step_1 plus `get_lora_scaling()`.
+Computes the per-layer Frobenius norm of `τ_comp = B @ A * (alpha/r)` — the dense LoRA delta. With full-parameter tuning, there are no `lora_A`/`lora_B` matrices. The equivalent computation is now `τ_comp = finetuned_weight − base_weight`, which is structurally identical to what step_1 does for τ_instr. If τ_comp norms are needed for diagnostics, step_1 can be called with `--base <base_model> --instruct <finetuned_model>`.
 
 ---
 
 ### step_2.py — Layer Cosine Similarity (Core LATA Step)
-**Status: Active — core pipeline step**
+**Status: Active, but needs update for full-parameter tuning**
 
-Computes per-layer cosine similarity between τ_comp (LoRA direction) and τ_instr (instruction tuning direction). This is the central computation of LATA.
+Computes per-layer cosine similarity between τ_comp (personality tuning direction) and τ_instr (instruction tuning direction). This is the central computation of LATA.
 
-**Inputs:** `--adapter_dir`, `--base` (base model), `--instruct` (instruct model)  
-**Outputs:** `artifacts/layer_cosine.pt` — dict with `layer_cosine` (int → float)
+**Inputs:** `--adapter_dir`, `--base`, `--instruct`  
+**Outputs:** `artifacts/layer_cosine.pt` — `layer_cosine` (int → float)
 
-**Key logic:**
-- For each matched lora_A/lora_B pair on target modules:
-  - τ_comp = B @ A * scaling
-  - τ_instr = instruct_weight − base_weight
-  - Accumulates dot product and norm² per layer (fp32 for stability)
-- Computes cosine = dot / (||τ_comp|| × ||τ_instr||) per layer
+**Current behaviour (broken for full-param):**
+- Opens `adapter_model.safetensors`, loops over `lora_A` keys
+- Computes τ_comp as `B @ A * (alpha/r)` — this requires LoRA matrices that do not exist in a full-param fine-tuned model
 
-**Duplicated code:** `TARGET_SUBSTRINGS`, `LAYER_RE`, `layer_id()`, `is_target_param()`, `get_lora_scaling()`, `clean_lora_key()`.
+**What it should do instead:**
+- Accept `--finetuned` (path to full-param fine-tuned model) instead of `--adapter_dir`
+- Compute τ_comp = `finetuned_weight − base_weight` for each target parameter (same arithmetic as τ_instr)
+- The cosine accumulation logic (dot product, norm², per-layer) is correct and unchanged
+
+**Functions to remove after update:** `get_lora_scaling()`, `clean_lora_key()` — LoRA-specific, no longer needed  
+**Functions to keep:** `layer_id()`, `is_target_param()` — still needed → move to `utils.py`
 
 ---
 
 ### step_3_weights.py — Layer Weight Calculation
-**Status: Active**
+**Status: Active — no changes needed**
 
 Converts per-layer cosine similarities into scalar weights for LATA application.
 
-**Inputs:** `--in_pt` (layer_cosine.pt), `--method` (linear / log / threshold), `--sigma`  
-**Outputs:** `--out_json` — JSON with `layer_weight` dict (int → float)
+**Inputs:** `--in_pt` (layer_cosine.pt from step_2), `--method` (linear/log/threshold), `--sigma`  
+**Outputs:** `--out_json` — JSON with `layer_weight` (int → float)
 
 **Weight schemes:**
-- `linear`: rank/L — layers with highest cosine get weight 1/L (least modified), lowest cosine get weight 1.0 (most modified)
-- `log`: log_L(rank) — similar ranking, logarithmic scale
+- `linear`: rank/L — highest cosine → smallest weight (least modified)
+- `log`: log_L(rank) — same ranking, logarithmic scale
 - `threshold`: 0.0 if cosine ≥ sigma, else 1.0 (binary mask)
 
 **Interpretation:** High cosine = layer already encodes instruction-like direction → apply less personality change. Low cosine = layer is personality-specific → apply more change.
@@ -164,35 +155,41 @@ Converts per-layer cosine similarities into scalar weights for LATA application.
 ---
 
 ### step_4_apply_lata.py — Apply LATA (Save Merged Model)
-**Status: Active — use when you need a saved merged model**
+**Status: Active, but needs update for full-parameter tuning**
 
-Applies LATA to produce a saved HuggingFace model on disk.
+Applies LATA and saves the merged model to disk.
 
-**Inputs:** `--adapter_dir`, `--target_model` (usually instruct), `--weights_json`, `--lambda_`  
-**Outputs:** Full merged model saved to `--out_dir`
+**Inputs:** `--adapter_dir`, `--target_model` (instruct), `--weights_json`, `--lambda_`  
+**Outputs:** Full merged model in HF format at `--out_dir`
 
-**Key logic:**
-- For each LoRA pair: `weight += lambda_ × w[layer] × (B @ A × scaling)`
-- Saves model + tokenizer in HF format
+**Current behaviour (broken for full-param):**
+- Reads `adapter_model.safetensors` for `lora_A`/`lora_B` pairs
+- Applies: `weight += lambda_ × w[layer] × (B @ A × scaling)`
 
-**Use case:** When you need a persistent merged model for deployment or for use with step_5_eval_gen or step_9. For lambda sweeps, step_6_lambda_gen is more efficient (in-memory, no disk I/O).
+**What it should do instead:**
+- Accept `--finetuned` instead of `--adapter_dir`
+- Load finetuned model alongside target model
+- Apply: `weight += lambda_ × w[layer] × (finetuned_weight − base_weight)`
 
-**Duplicated code:** Same 6 functions/constants as step_2.
+**Use case:** Produces a persistent saved model. For lambda sweeps, step_6_lambda_gen is more efficient (in-memory, no disk I/O).
+
+**Functions to remove after update:** `get_lora_scaling()`, `clean_lora_key()`  
+**Functions to keep/move to utils.py:** `layer_id()`, `is_target_param()`
 
 ---
 
 ### step_5_eval.py — Classification Evaluation
-**Status: BROKEN — do not use**
+**Status: BROKEN — delete**
 
-Intended to evaluate models on A/B multiple-choice personality questions.
+Written for an old TASK_II data format. Has never worked with the current data format.
 
 **Bugs:**
-1. `build_prompt()` accesses `example["messages"]` — field does not exist in the current JSONL format (leftover from an old TASK_II format)
-2. `return f"{pompt}"` — `pompt` is undefined (typo); would raise `NameError` at runtime
-3. `ex.get("correct_option", None)` — field does not exist in current JSONL (it's `source_answer`)
+1. `build_prompt()` reads `example["messages"]` — field does not exist in current JSONL
+2. `return f"{pompt}"` — `pompt` undefined (typo), raises `NameError` at runtime
+3. `ex.get("correct_option", None)` — field does not exist (current field is `source_answer`)
 4. Hardcoded `os.environ["CUDA_VISIBLE_DEVICES"] = "1"` at module level
 
-This script reflects an abandoned classification-based evaluation approach (Task II format). It has never worked with the current data format.
+The generation-based evaluation (step_5_eval_gen) replaces this.
 
 ---
 
@@ -204,55 +201,49 @@ Evaluates a single model on generation quality using ROUGE-L against reference r
 **Inputs:** `--model_dir`, `--test_jsonl` (uses `prompt` and `chosen` fields)  
 **Outputs:** `artifacts/gen_preds.csv` — per-example `generated`, `rouge_l`
 
-**Key logic:** Direct completion (no chat template) — generates from `prompt`, scores against `chosen` with ROUGE-L.
+Direct completion (no chat template) — generates from `prompt`, scores against `chosen`.
 
 ---
 
 ### step_6_lambda.py — Classification Lambda Sweep
-**Status: BROKEN — do not use**
+**Status: BROKEN — delete**
 
-Intended to sweep λ values and evaluate via A/B classification.
+Written for classification (A/B) evaluation. Broken and superseded by step_6_lambda_gen.
 
 **Bugs:**
-1. `gold = ex.get('chosen', None)` — `chosen` contains free text, not "A"/"B"; the check `if gold in ("A", "B")` will always fail, making `total` always 0
-2. `print(f'Prompt: {prompt} \n Gold: {gold}')` inside the eval loop — would print every single example
-3. Hardcoded `os.environ["CUDA_VISIBLE_DEVICES"] = "1"` at module level
-
-This script reflects the abandoned classification evaluation track. The generation-based approach (step_6_lambda_gen) replaced it.
+1. `gold = ex.get('chosen', None)` — `chosen` contains free text, not "A"/"B"; `if gold in ("A", "B")` always fails, `total` stays 0
+2. `print(f'Prompt: {prompt} \n Gold: {gold}')` inside the eval loop floods stdout
+3. Contains the same LoRA-specific loading code as step_2/step_4 (additionally broken for full-param)
 
 ---
 
 ### step_6_lambda_gen.py — Generation Lambda Sweep
-**Status: Active — main sweep script**
+**Status: Active, but needs update for full-parameter tuning**
 
-Sweeps multiple λ values and evaluates LATA-merged models using ROUGE-L.
+Sweeps multiple λ values and evaluates LATA-merged models in-memory using ROUGE-L. The most efficient sweep script — precomputes and caches all deltas, restores weights between lambda values without reloading the model.
 
 **Inputs:** `--adapter_dir`, `--weights_json`, `--test_jsonl`, `--base_model`, `--instruct_model`, `--lambdas`  
-**Outputs:** `artifacts/sweep_gen.csv` — per-run `rouge_l` at each λ
+**Outputs:** `artifacts/sweep_gen.csv` — `rouge_l` per run per λ
 
-**Key logic:**
-- Evaluates base and instruct models as baselines
-- Precomputes `w[layer] × (B @ A × scaling)` for all LoRA pairs and caches on GPU
-- For each λ: applies `param = orig + λ × cached_delta`, evaluates, restores original weights
-- Efficient: avoids reloading the model for each λ value
+**Current behaviour (broken for full-param):**
+- Reads `adapter_model.safetensors` for `lora_A`/`lora_B` pairs
+- Computes cached delta as `w[layer] × (B @ A × scaling)`
 
-**Duplicated code:** Same LoRA utility functions as step_2 and step_4.
+**What it should do instead:**
+- Accept `--finetuned` instead of `--adapter_dir`
+- Cache delta as `w[layer] × (finetuned_weight − base_weight)` per parameter
+
+The evaluation loop (`eval_model()`), ROUGE scoring, and cache-restore sweep logic are all correct and unchanged.
+
+**Functions to remove after update:** `get_lora_scaling()`, `clean_lora_key()`  
+**Functions to keep/move to utils.py:** `layer_id()`, `is_target_param()`, `load_tokenizer()`
 
 ---
 
 ### step_8_combine.py — Combine Sweep Results
-**Status: Dead — hardcoded paths, no argparse**
+**Status: Dead — delete**
 
-Concatenates multiple lambda sweep CSVs into one DataFrame.
-
-**Hardcoded paths:**
-```
-artifacts/agreeableness_high_linear_lambda_sweep.csv
-artifacts/agreeableness_high_log_lambda_sweep.csv
-artifacts/agreeableness_high_thr2e-4_lambda_sweep.csv
-```
-
-This is essentially a 17-line notebook cell. The paths no longer exist. If needed, replace with a simple CLI tool or notebook cell.
+Concatenates lambda sweep CSVs into one DataFrame. The paths are hardcoded to files that no longer exist. There is no argparse. Replace with a notebook cell or a 5-line CLI script if needed.
 
 ---
 
@@ -261,114 +252,111 @@ This is essentially a 17-line notebook cell. The paths no longer exist. If neede
 
 Runs the 50-item IPIP Big Five inventory across multiple models and collects Likert responses.
 
-**Inputs:** `--questionnaire` (JSON file), `--out` (output path prefix)  
-**Outputs:** `{out}.details.csv` (per-question), `{out}.responses.csv` (wide format, X_1..X_50)
+**Inputs:** `--questionnaire` (JSON), `--out` (output path prefix)  
+**Outputs:** `{out}.details.csv` (per-question), `{out}.responses.csv` (wide format X_1..X_50)
 
 **Key logic:**
-- Uses raw text completion format (not chat template) for both base and instruct models
-- Prompt: scale definition + statement + "Answer:" (expects a single digit 1-5)
-- Parses response with regex for digits 1-5, falls back to word matching
-- Repeats each run `--repeats` times with different seeds for stability
+- Raw text completion format — works for both base and full-param fine-tuned models
+- Prompt: scale definition + statement + "Answer:" (expects a single digit 1–5)
+- Regex parses 1–5 response; falls back to word matching ("strongly agree" etc.)
+- `--repeats` runs per model with different seeds for stability
 
 **Issues:**
-- Model list is hardcoded inside `main()` with many commented-out entries — should be CLI arg or config file
+- Model list hardcoded inside `main()` with many commented-out entries → should be `--models` CLI arg or JSON config
 - `os.environ["CUDA_VISIBLE_DEVICES"] = "3"` hardcoded at module level
-- `infer_llama_config_if_missing()` / `try_load_as_peft_adapter()` are workarounds for specific local model issues; may not be needed with clean HF models
+- `try_load_as_peft_adapter()` attempts to load PEFT adapters — dead path for full-param models; can be removed
 
 ---
 
 ### step_10_eval_questionaires.py — Score IPIP-50 Responses
 **Status: Active but fragile**
 
-Applies IPIP-50 scoring keys to convert raw Likert responses into Big Five trait scores.
+Applies IPIP-50 scoring keys to compute Big Five trait scores from step_9 output.
 
-**Inputs:** Hardcoded `seq.responses.csv` (output of step_9)  
+**Inputs:** Hardcoded `seq.responses.csv`  
 **Outputs:** Hardcoded `seq_profiles.csv`
 
-**Key logic:**
-- Scoring keys per trait (10 items each, some reverse-scored)
-- Reverse scoring: `6 - score` for negatively-keyed items
-- Aggregates mean score per trait per model
+**Key logic:** 10-item scoring keys per trait; reverse-scores negatively-keyed items (`6 − score`); aggregates mean per model.
 
 **Issues:**
-- Hardcoded input/output paths — should accept CLI args
-- No argparse whatsoever
+- Input and output paths hardcoded — no argparse
+- Entirely dependent on step_9 using the filename `seq.responses.csv`
 
 ---
 
 ### step_11_OEG_personality_text_gen_simple.py — Open-Ended Generation Evaluation
 **Status: Active — most complete script**
 
-Evaluates personality expression through open-ended text generation, scored by a Big Five personality classifier.
+Evaluates personality expression through open-ended text generation scored by a Big Five classifier.
 
-**Inputs:** `--model_path` or `--config` (JSON list of models)  
+**Inputs:** `--model_path` (single model) or `--config` (JSON list of models)  
 **Outputs:** `profiles_{timestamp}.csv`, `generations_{timestamp}.csv`
 
 **Key logic:**
-- 12 personality-relevant sentence-completion prompts (e.g. "I like to", "At parties, I")
-- Two prompt formats: chat-template (instruct/SFT models) vs. raw completion (base models)
-- Uses `KevSun/Personality_LM` (sequence classification) to score each generated text on Big Five
+- 12 personality-relevant sentence-completion prompts ("I like to", "At parties, I", etc.)
+- Chat-template format for instruct/SFT models; raw completion for base models
+- Scores each generation with `KevSun/Personality_LM` (sequence classifier → Big Five probs)
 - Computes mean personality profile across all generated texts per model
-- Supports batch evaluation via JSON config file
 
-**Classes:** `PersonalityLM` (wrapper around KevSun/Personality_LM), `TextGenerator` (generation with seed control)
+**Classes:** `PersonalityLM`, `TextGenerator`
 
 ---
 
 ## Duplicated Code — Candidates for utils.py
 
-The following are defined identically in **5–6 files** (step_1, step_1.2, step_2, step_4, step_6_lambda, step_6_lambda_gen):
+These symbols are currently copy-pasted across active scripts. After removing the broken/obsolete files and updating step_2/step_4/step_6_lambda_gen, the following belong in a single `utils.py`:
 
-| Symbol | Appears in |
-|--------|-----------|
-| `TARGET_SUBSTRINGS` tuple | step_1, step_1.2, step_2, step_4, step_6_lambda, step_6_lambda_gen |
-| `LAYER_RE` regex | step_1, step_1.2, step_2, step_4, step_6_lambda, step_6_lambda_gen |
-| `layer_id(name)` | step_1, step_1.2, step_2, step_4, step_6_lambda, step_6_lambda_gen |
-| `is_target_param(name)` | step_1, step_1.2, step_2, step_4, step_6_lambda, step_6_lambda_gen |
-| `get_lora_scaling(adapter_dir)` | step_1.2, step_2, step_4, step_6_lambda, step_6_lambda_gen |
-| `clean_lora_key(kA)` | step_2, step_4, step_6_lambda, step_6_lambda_gen |
-| `load_tokenizer(path)` | step_6_lambda, step_6_lambda_gen |
-
-All seven belong in a single `utils.py` module.
+| Symbol | Currently in | Notes |
+|--------|-------------|-------|
+| `TARGET_SUBSTRINGS` | step_1, step_2, step_4, step_6_lambda_gen | Keep — still needed |
+| `LAYER_RE` | step_1, step_2, step_4, step_6_lambda_gen | Keep — still needed |
+| `layer_id(name)` | step_1, step_2, step_4, step_6_lambda_gen | Keep — still needed |
+| `is_target_param(name)` | step_1, step_2, step_4, step_6_lambda_gen | Keep — still needed |
+| `load_tokenizer(path)` | step_6_lambda, step_6_lambda_gen | Keep (step_6_lambda_gen only after cleanup) |
+| `get_lora_scaling(adapter_dir)` | step_1.2, step_2, step_4, step_6_lambda, step_6_lambda_gen | **Delete** — LoRA-specific, not needed after full-param update |
+| `clean_lora_key(kA)` | step_2, step_4, step_6_lambda, step_6_lambda_gen | **Delete** — LoRA-specific, not needed after full-param update |
 
 ---
 
-## Dead / Broken Code Summary
+## Summary: What to Delete, Update, and Keep
 
-| File | Status | Reason |
-|------|--------|--------|
-| `step_5_eval.py` | **Broken** | Undefined variable `pompt`; wrong field names (`messages`, `correct_option`); old TASK_II format |
-| `step_6_lambda.py` | **Broken** | `chosen` field contains text, not "A"/"B"; classification track abandoned |
-| `step_8_combine.py` | **Dead** | Hardcoded artifact paths that no longer exist |
-| `step_0_2_sft_seq.py` | **Uncertain** | User reports LoRA training was removed; hardcoded, incomplete TASKS list |
+### Delete (confirmed obsolete or broken)
+| File | Reason |
+|------|--------|
+| `step_0_2_sft_seq.py` | LoRA SFT training — approach removed |
+| `step_1.2.py` | LoRA-specific τ_comp norms — approach removed |
+| `step_5_eval.py` | Broken (undefined variable, wrong fields) — classification track abandoned |
+| `step_6_lambda.py` | Broken (classification track abandoned) + LoRA-specific |
+| `step_8_combine.py` | Hardcoded dead code |
 
-## Diagnostic-Only Scripts (not part of main pipeline)
-
-| File | Purpose | Output used by |
-|------|---------|----------------|
-| `step_1.py` | Compute `||τ_instr||` per layer | Nothing — step_2 recomputes inline |
-| `step_1.2.py` | Compute `||τ_comp||` per layer | Nothing — step_2 recomputes inline |
-
-## Hardcoded Configs to Externalize
-
-| File | Hardcoded value |
+### Update (functionally broken for full-param tuning)
+| File | Required change |
 |------|----------------|
-| `step_0_2_sft_seq.py` | `CUDA_VISIBLE_DEVICES=1`, model path, TASKS list, all hyperparams |
-| `step_5_eval.py` | `CUDA_VISIBLE_DEVICES=1` |
-| `step_6_lambda.py` | `CUDA_VISIBLE_DEVICES=1` |
-| `step_9_big5_inventory.py` | `CUDA_VISIBLE_DEVICES=3`, model list |
-| `step_10_eval_questionaires.py` | input/output file paths |
-| `step_8_combine.py` | input file paths |
+| `step_2.py` | Replace `--adapter_dir` + `lora_A/lora_B` loading with `--finetuned` + direct weight diff |
+| `step_4_apply_lata.py` | Same: replace LoRA delta with `finetuned_weight − base_weight` |
+| `step_6_lambda_gen.py` | Same: replace LoRA delta cache with `finetuned_weight − base_weight` |
+
+### Minor fixes (cosmetic / config issues)
+| File | Fix needed |
+|------|-----------|
+| `step_9_big5_inventory.py` | Move model list to CLI arg; remove `try_load_as_peft_adapter()`; remove hardcoded CUDA device |
+| `step_10_eval_questionaires.py` | Add argparse for input/output paths |
+
+### Active and correct — no changes needed
+- `step_0_1_prepdata.py`
+- `step_1.py`
+- `step_3_weights.py`
+- `step_5_eval_gen.py`
+- `step_11_OEG_personality_text_gen_simple.py`
 
 ---
 
-## Recommended Refactoring Steps
+## Recommended Implementation Order
 
-1. **Create `utils.py`** — extract the 7 duplicated symbols listed above
-2. **Delete `step_5_eval.py`** and **`step_6_lambda.py`** — both broken; the generation-based equivalents replace them
-3. **Delete or replace `step_8_combine.py`** — hardcoded dead code; replace with a 3-line notebook cell or CLI script if needed
-4. **Decide on `step_0_2_sft_seq.py`** — if LoRA training was removed from the approach, delete it; if still needed, add argparse and move config to CLI args
-5. **Decide on `step_1.py` and `step_1.2.py`** — if diagnostic analysis is still useful, keep; otherwise delete (their core logic is already in step_2)
-6. **Add argparse to `step_10_eval_questionaires.py`** — replace hardcoded paths
-7. **Move model list in `step_9`** to a CLI arg or JSON config file
-8. **Remove all top-level `os.environ["CUDA_VISIBLE_DEVICES"]`** — replace with CLI `--device` args or document as env var to set before running
+1. **Delete** the 5 confirmed-dead files
+2. **Create `utils.py`** with the 5 surviving shared symbols
+3. **Update step_2** — replace LoRA loading with full-param diff; import from utils
+4. **Update step_4** — same
+5. **Update step_6_lambda_gen** — same
+6. **Fix step_9** — CLI model list, remove PEFT path
+7. **Fix step_10** — add argparse
