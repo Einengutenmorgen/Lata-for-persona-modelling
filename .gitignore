@@ -9,3 +9,9 @@ Results_1702
 .DS_Store
 Untitled-1.ipynb
 Results_SCT/batch_stacked_20260221_165420.json
+Results_MasterThesis
+Artifacts_masterThesis
+unused_scripts
+wandb
+venv
+__pycache__

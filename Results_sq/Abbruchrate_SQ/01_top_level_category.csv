@@ -1,5 +1,0 @@
-group,n_rows,total_answers,total_invalid,invalid_rate
-base,3,150,55,0.36666666666666664
-instruct,3,150,0,0.0
-sft,34,1700,557,0.3276470588235294
-lata,510,25500,3025,0.11862745098039215
