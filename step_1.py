@@ -1,3 +1,4 @@
+#step_1.py
 import argparse
 from collections import defaultdict
 from pathlib import Path
@@ -13,7 +14,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--base", required=True, help="HF path to base model")
     ap.add_argument("--instruct", required=True, help="HF path to instruct model")
-    ap.add_argument("--out", default="artifacts/instr_stats.pt")
+    ap.add_argument("--out", default="base_models/instr_stats.pt")
     ap.add_argument("--dtype", default="float16", choices=["float16", "bfloat16", "float32"])
     args = ap.parse_args()
 
@@ -23,8 +24,8 @@ def main():
     print(f"[load] base     = {args.base}")
     print(f"[load] instruct = {args.instruct}")
 
-    base = AutoModelForCausalLM.from_pretrained(args.base, torch_dtype=dtype, device_map=device)
-    inst = AutoModelForCausalLM.from_pretrained(args.instruct, torch_dtype=dtype, device_map=device)
+    base = AutoModelForCausalLM.from_pretrained(args.base, dtype=dtype, device_map=device)
+    inst = AutoModelForCausalLM.from_pretrained(args.instruct, dtype=dtype, device_map=device)
 
     bc, ic = base.config, inst.config
     assert bc.hidden_size == ic.hidden_size, "hidden_size mismatch"

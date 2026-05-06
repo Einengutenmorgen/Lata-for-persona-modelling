@@ -14,4 +14,14 @@ Artifacts_masterThesis
 unused_scripts
 wandb
 venv
+venv2
+credentials.json
 __pycache__
+DnD*
+artifacts
+base_model
+DATA_ROOT
+models_llama31_8b_full_ft
+profiles
+token.json
+upload_gdrive.py
